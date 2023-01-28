@@ -2503,7 +2503,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"awEvQ":[function(require,module,exports) {
+},{}],"1E7Kg":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -28259,78 +28259,6 @@ function App() {
                     fileName: "App.jsx",
                     lineNumber: 236,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/home-design",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDesignDefault.default), {
-                        ...homeDesignData
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 240,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 239,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/:path(|thumbnail)",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container-center-horizontal",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "thumbnail screen",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "overlap-group-22",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "sign-up-1",
-                                            src: "/img/sign-up-3.png",
-                                            alt: "Sign Up"
-                                        }, void 0, false, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 246,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                            className: "title",
-                                            children: "SIGN UP PAGE"
-                                        }, void 0, false, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 247,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "App.jsx",
-                                    lineNumber: 245,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "vector-13",
-                                    src: "/img/vector-3@2x.png",
-                                    alt: "Vector"
-                                }, void 0, false, {
-                                    fileName: "App.jsx",
-                                    lineNumber: 249,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "App.jsx",
-                            lineNumber: 244,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 243,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 242,
-                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
@@ -28374,13 +28302,13 @@ const signUpData = {
             "All of our Products",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 285,
+                lineNumber: 271,
                 columnNumber: 51
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 285,
+        lineNumber: 271,
         columnNumber: 16
     }, undefined),
     spanText4: "has 3D models in AR views",
@@ -28466,13 +28394,13 @@ const productSearchResultData = {
             "Sand Stone",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 376,
+                lineNumber: 362,
                 columnNumber: 42
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 376,
+        lineNumber: 362,
         columnNumber: 16
     }, undefined),
     spanText2: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
@@ -28480,20 +28408,20 @@ const productSearchResultData = {
             "Stone",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 377,
+                lineNumber: 363,
                 columnNumber: 37
             }, undefined),
             "Cement",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 377,
+                lineNumber: 363,
                 columnNumber: 49
             }, undefined),
             "Soft Stone"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 377,
+        lineNumber: 363,
         columnNumber: 16
     }, undefined),
     services: "Services",
@@ -28502,20 +28430,20 @@ const productSearchResultData = {
             "Measurement Service",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 379,
+                lineNumber: 365,
                 columnNumber: 60
             }, undefined),
             "product Advice",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 379,
+                lineNumber: 365,
                 columnNumber: 80
             }, undefined),
             "interior Design"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 379,
+        lineNumber: 365,
         columnNumber: 25
     }, undefined),
     contactInformation: "Contact Information",
@@ -28524,20 +28452,20 @@ const productSearchResultData = {
             "3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 381,
+                lineNumber: 367,
                 columnNumber: 74
             }, undefined),
             "an Nuzhah, Riyadh 12474, ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 381,
+                lineNumber: 367,
                 columnNumber: 105
             }, undefined),
             "saudi Arabia"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 381,
+        lineNumber: 367,
         columnNumber: 14
     }, undefined),
     iconFacebook: "/img/group-402@2x.png",
@@ -28588,13 +28516,13 @@ const homeDesignData = {
             "Sand Stone",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 427,
+                lineNumber: 413,
                 columnNumber: 42
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 427,
+        lineNumber: 413,
         columnNumber: 16
     }, undefined),
     spanText2: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
@@ -28602,20 +28530,20 @@ const homeDesignData = {
             "Stone",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 428,
+                lineNumber: 414,
                 columnNumber: 37
             }, undefined),
             "Cement",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 428,
+                lineNumber: 414,
                 columnNumber: 49
             }, undefined),
             "Soft Stone"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 428,
+        lineNumber: 414,
         columnNumber: 16
     }, undefined),
     services: "Services",
@@ -28624,20 +28552,20 @@ const homeDesignData = {
             "Measurement Service",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 430,
+                lineNumber: 416,
                 columnNumber: 60
             }, undefined),
             "product Advice",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 430,
+                lineNumber: 416,
                 columnNumber: 80
             }, undefined),
             "interior Design"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 430,
+        lineNumber: 416,
         columnNumber: 25
     }, undefined),
     contactInformation: "Contact Information",
@@ -28646,20 +28574,20 @@ const homeDesignData = {
             "3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 432,
+                lineNumber: 418,
                 columnNumber: 74
             }, undefined),
             "an Nuzhah, Riyadh 12474, ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 432,
+                lineNumber: 418,
                 columnNumber: 105
             }, undefined),
             "saudi Arabia"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 432,
+        lineNumber: 418,
         columnNumber: 14
     }, undefined),
     iconFacebook: "/img/group-402@2x.png",
@@ -32210,7 +32138,7 @@ $RefreshReg$(_c, "SignUp");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../FullName":"7y3wN","./SignUp.css":"10v8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"cHIiW"}],"7y3wN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../FullName":"7y3wN","react-router-dom":"cHIiW","./SignUp.css":"10v8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7y3wN":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$02ff = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34558,6 +34486,6 @@ $RefreshReg$(_c, "HomeDesign");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Group5407":"6ALNd","./HomeDesign.css":"95J9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"95J9S":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Group5407":"6ALNd","./HomeDesign.css":"95J9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"95J9S":[function() {},{}]},["1xC6H","1E7Kg","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map

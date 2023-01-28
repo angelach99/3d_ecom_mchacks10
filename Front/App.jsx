@@ -236,20 +236,6 @@ function App() {
         <Route path="/product-search-result">
           <ProductSearchResult {...productSearchResultData} />
         </Route>
-        <Route path="/home-design">
-          <HomeDesign {...homeDesignData} />
-        </Route>
-        <Route path="/:path(|thumbnail)">
-          <div className="container-center-horizontal">
-            <div className="thumbnail screen">
-              <div className="overlap-group-22">
-                <img className="sign-up-1" src="/img/sign-up-3.png" alt="Sign Up" />
-                <h1 className="title">SIGN UP PAGE</h1>
-              </div>
-              <img className="vector-13" src="/img/vector-3@2x.png" alt="Vector" />
-            </div>
-          </div>
-        </Route>
       </Switch>
     </Router>
   );

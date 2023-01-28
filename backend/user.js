@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-await mongoose.connect("//benben:<Zfb010420!>@cluster0.pzxao6c.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb://benben:<Zfb010420!>@cluster0.pzxao6c.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("mongoDB connected");
 })
@@ -24,4 +24,4 @@ const newSchema = new mongoose.Schema({
 
 const user = mongoose.model("user",newSchema);
 
-model.exports = user
+module.exports = user

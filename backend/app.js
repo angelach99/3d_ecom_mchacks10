@@ -1,7 +1,8 @@
 const express = require("express")
 const cors = require("cors")
-const user = require("mongoose")
+const user = require("./user")
 const app = express()
+
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
@@ -33,6 +34,7 @@ app.post("/login",async(req,res)=>{
 })
 
 app.post("/signup",async(req,res)=>{
+    res.header( "Access-Control-Allow-Origin" );
     const{fullName,email,password}=req.body
     const data={
         fullName:fullName,
@@ -40,11 +42,15 @@ app.post("/signup",async(req,res)=>{
         password:password
     }
     try{
+        console.log(email);
         const checkEmail = await user.findOne({email:email})
+        console.log(checkEmail);
         if(checkEmail){
+            console.log("2");
             res.json("Email already exists!")
         }else{
             await user.insertMany({data})
+            console.log("1");
             res.json("Sign up successfully")
         }
     }
