@@ -1,0 +1,34 @@
+.email-address {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  left: 814px;
+  min-height: 45px;
+  position: absolute;
+  top: 437px;
+  width: 796px;
+}
+
+.email-address-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 173px;
+}
+
+.line-1 {
+  height: 1px;
+  margin-left: 0;
+  object-fit: cover;
+  width: 794px;
+}
+
+.email-address.password {
+  top: 540px;
+}
+
+.email-address.password .email-address-1 {
+  width: 118px;
+}
+

@@ -1,0 +1,239 @@
+.sign-up {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(139, 178, 178) 0%, rgb(179.43, 205.06, 205.06) 100%);
+  background-color: rgba(255,255,255,1.0);
+  border: 1px none;
+  display: flex;
+  height: 1080px;
+  overflow: hidden;
+  width: 1956.52px;
+}
+
+.overlap-group-container {
+  height: 1082px;
+  margin-left: 52px;
+  margin-top: 3px;
+  position: relative;
+  width: 1919px;
+}
+
+.overlap-group5 {
+  height: 1082px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1919px;
+}
+
+.overlap-group4 {
+  height: 1082px;
+  left: 76px;
+  position: absolute;
+  top: 0;
+  width: 1843px;
+}
+
+.white-bg {
+  background-color: var(--white);
+  border-radius: 30px 0px 0px 30px;
+  height: 1082px;
+  left: 586px;
+  position: absolute;
+  top: 0;
+  width: 1257px;
+}
+
+.language {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  height: 28px;
+  left: 1622px;
+  min-width: 160px;
+  position: absolute;
+  top: 34px;
+}
+
+.surname {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  width: 122px;
+}
+
+.polygon-1 {
+  height: 12px;
+  margin-top: 0.77px;
+  width: 22px;
+}
+
+.create-account {
+  left: 807px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 153px;
+  width: 381px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  gap: 22px;
+  height: 62px;
+  left: 807px;
+  min-width: 374px;
+  padding: 11.4px 21.1px;
+  position: absolute;
+  top: 258px;
+}
+
+.image-2 {
+  height: 39px;
+  object-fit: cover;
+  width: 42px;
+}
+
+.continue-with-google {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.0px;
+  min-height: 28px;
+  width: 224px;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  gap: 25px;
+  height: 62px;
+  left: 1222px;
+  min-width: 374px;
+  padding: 11.4px 26.2px;
+  position: absolute;
+  top: 258px;
+}
+
+.image-3 {
+  height: 37px;
+  object-fit: cover;
+  width: 41px;
+}
+
+.continue-with-facebook {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.0px;
+  min-height: 28px;
+  width: 251px;
+}
+
+.or {
+  left: 1178px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 381px;
+  width: 74px;
+}
+
+.overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--pewter-blue);
+  border-radius: 6px;
+  display: flex;
+  height: 62px;
+  left: 807px;
+  min-width: 788px;
+  padding: 12.4px 285.3px;
+  position: absolute;
+  top: 810px;
+}
+
+.create-account-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 37px;
+  text-align: center;
+  width: 217px;
+}
+
+.already-have-an-account-login {
+  left: 807px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 909px;
+  width: 382px;
+}
+
+.abstraction {
+  height: 632px;
+  left: 0;
+  position: absolute;
+  top: 418px;
+  width: 727px;
+}
+
+.all-of-our-products {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 55px;
+  position: absolute;
+  top: 153px;
+  width: 600px;
+}
+
+.the-best-e-commerce {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 312px;
+  width: 601px;
+}
+
+.overlap-group3 {
+  height: 69px;
+  left: 3px;
+  position: absolute;
+  top: 34px;
+  width: 61px;
+}
+
+.ellipse-1 {
+  background-color: var(--white);
+  border-radius: 30.5px/27.76px;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 61px;
+}
+
+.ellipse-2 {
+  background-color: var(--shadow-green);
+  border-radius: 30.5px/27.76px;
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 61px;
+}
+
+.polygon-2 {
+  height: 47px;
+  left: 1px;
+  position: absolute;
+  top: 20px;
+  width: 60px;
+}
+

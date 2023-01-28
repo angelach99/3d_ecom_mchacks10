@@ -1,0 +1,42 @@
+.group-5407 {
+  align-items: center;
+  display: flex;
+  gap: 243px;
+  height: 20px;
+  left: 784px;
+  min-width: 368px;
+  position: absolute;
+  top: 25px;
+}
+
+.place {
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.post {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 74px;
+  text-align: right;
+}
+
+.group-5407.group-5388 {
+  left: 532px;
+  top: 0;
+}
+
+.group-5407.group-5192 {
+  align-self: center;
+  height: unset;
+  left: unset;
+  margin-left: 10.0px;
+  margin-top: 39px;
+  position: unset;
+  top: unset;
+}
+

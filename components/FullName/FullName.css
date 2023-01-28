@@ -1,0 +1,41 @@
+.full-name {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  left: 807px;
+  min-height: 45px;
+  position: absolute;
+  top: 476px;
+  width: 790px;
+}
+
+.full-name-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 121px;
+}
+
+.line-1-1 {
+  height: 1px;
+  object-fit: cover;
+  width: 788px;
+}
+
+.full-name.email-address-2 {
+  top: 583px;
+}
+
+.full-name.email-address-2 .full-name-1 {
+  width: 172px;
+}
+
+.full-name.password-1 {
+  top: 688px;
+}
+
+.full-name.password-1 .full-name-1 {
+  width: 117px;
+}
+
