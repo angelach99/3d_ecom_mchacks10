@@ -70,7 +70,7 @@ function ProductSearchResult(props) {
               <Link to="/product-detail-page">
                 <div className="result">
                   <div className="overlap-group-5">
-                    <img className="x14-1" src={x141} alt="14 1" />
+                    <img className="desk1" src={x141} alt="desk1" />
                     <div className="overlap-group-6">
                       <div className="zurich-pearl-6060 proximanova-normal-woodsmoke-26px">{zurichPearl6060}</div>
                     </div>

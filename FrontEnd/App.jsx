@@ -108,7 +108,7 @@ const productSearchResultData = {
     showingnumofitem: "Showing",
     x111: "/img/11-1-1@2x.png",
     windsorWhiteOak: "Windsor White Oak",
-    x141: "/img/14-1@2x.png",
+    x141: "/img/desk1.png",
     zurichPearl6060: "Zurich Pearl 60×60",
     x101: "/img/10-1-1@2x.png",
     sicilyGreyDcor3060: "Sicily Grey Décor 30×60",
