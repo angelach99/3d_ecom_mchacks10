@@ -20,7 +20,7 @@ function App() {
       setEmail(userObject.email);
       setPassword(userObject.given_name + " " + userObject.family_name);
       setUsername(userObject.given_name + " " + userObject.family_name);
-      await axios.post("http://localhost:5000",{ 
+      await axios.post("http://localhost:8000",{ 
         email:email,password:password
        }).then((response) =>{
         console.log(response);
@@ -101,41 +101,41 @@ const productDetailPageData = {
 };
 
 const productSearchResultData = {
-    iconSearch: "/img/group-5378@2x.png",
-    welcometext: "Welcome,",
-    place: "HOME",
-    post: "CONTACT",
-    overlapGroup10: "/img/image-11.png",
-    t: "CATALOG",
-    loremIpsumIsSimpl: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    showingnumofitem: "Showing",
-    x111: "/img/11-1-1@2x.png",
-    windsorWhiteOak: "Windsor White Oak",
-    x141: "/img/desk1.png",
-    zurichPearl6060: "Zurich Pearl 60×60",
-    x101: "/img/10-1-1@2x.png",
-    sicilyGreyDcor3060: "Sicily Grey Décor 30×60",
-    x131: "/img/13-1@2x.png",
-    zurichGrey6060: "Zurich Grey 60×60",
-    x961: "/img/9-61-1@2x.png",
-    sardiniaWhite: "Sardinia White",
-    x121: "/img/12-1@2x.png",
-    zurichDarkGrey6060: "Zurich Dark Grey 60×60",
-    x81: "/img/8-1-1@2x.png",
-    sicilyGrey3060: "Sicily Grey 30×60",
-    products: "Products",
-    teaminfo: "Teaminfo",
-    project: "Project",
-    projectabout: "Projectabout",
-    contactInformation: "Contact Information",
-    teamMember: "Team Member",
+  iconSearch: "/img/group-5378@2x.png",
+  welcometext: "Welcome,",
+  place: "HOME",
+  post: "CONTACT",
+  overlapGroup10: "/img/image-11.png",
+  t: "CATALOG",
+  loremIpsumIsSimpl: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  showingnumofitem: "Showing",
+  x111: "/img/desk4.png",
+  windsorWhiteOak: "Windsor White Oak",
+  x141: "/img/desk1.png",
+  zurichPearl6060: "Zurich Pearl 60×60",
+  x101: "/img/desk5.png",
+  sicilyGreyDcor3060: "Sicily Grey Décor 30×60",
+  x131: "/img/desk2.png",
+  zurichGrey6060: "Zurich Grey 60×60",
+  x961: "/img/desk6.png",
+  sardiniaWhite: "Sardinia White",
+  x121: "/img/desk3.png",
+  zurichDarkGrey6060: "Zurich Dark Grey 60×60",
+  x81: "/img/desk7.png",
+  sicilyGrey3060: "Sicily Grey 30×60",
+  products: "Products",
+  teaminfo: "Teaminfo",
+  project: "Project",
+  projectabout: "Projectabout",
+  contactInformation: "Contact Information",
+  teamMember: "Team Member",
     copyright2023AllRightsReserved: "Copyright © 2022 | All Rights Reserved.",
 };
 
 const homeDesignData = {
-    welcometext: "Welcome,",
+    welcometext: "Welcome",
     place: "HOME",
-    postbutton: "CONTACT",
+    postbutton: "UPLOAD",
     productstitle: "Products",
     productdescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     group1Pics: "/img/group1pics.png",

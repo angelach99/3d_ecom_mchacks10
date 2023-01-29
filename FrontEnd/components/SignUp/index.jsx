@@ -36,19 +36,23 @@ function SignUp(props) {
   setPassword(event.target.value);
 };
 
-async function submit(e) 
-{
+async function submit(e){
   try{
-     await axios.post("http://localhost:5000/",{ 
-        email:email,password:password
-     })
-   }
-   catch(e)
-   {
-    console.log(e);
-   }
+      await axios.post("http://localhost:8000/signup",{
+          fullname,email,password
+      })
+      .then(res=>{
+          if(res.data==="notexist"){
+            window.location.href = "http://localhost:1234/home-design"
+          }else if(res.data==="exist"){
+              alert("User exists!")
+          }
+      })
+  }
+  catch(e){
+          console.log(e);
+  }
 }
-
 
   return (
     <div className="container-center-horizontal">
@@ -69,7 +73,7 @@ async function submit(e)
               <span className="poppins-normal-star-dust-14px">{spanText1}</span>
               <Link to="/sign-in">{spanText2}</Link>
             </p>
-            <div className="create-account-button"></div>
+            <button type = "submit" className="create-account-button" onClick={submit}></button>
             <div className="create-account-text poppins-semi-bold-white-16px">{createaccounttext}</div>
             <img className="abstraction-1" src={abstraction} alt="Abstraction" />
           </div>

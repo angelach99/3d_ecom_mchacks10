@@ -27123,7 +27123,7 @@ function App() {
         setEmail(userObject.email);
         setPassword(userObject.given_name + " " + userObject.family_name);
         setUsername(userObject.given_name + " " + userObject.family_name);
-        await axios.post("http://localhost:5000", {
+        await axios.post("http://localhost:8000", {
             email: email,
             password: password
         }).then((response)=>{
@@ -27140,7 +27140,7 @@ function App() {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/product-detail-page",
+                    path: "/product-detail-page/1",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productDetailPageDefault.default), {
                         ...productDetailPageData
                     }, void 0, false, {
@@ -27154,9 +27154,9 @@ function App() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/home-design",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDesignDefault.default), {
-                        ...homeDesignData
+                    path: "/product-detail-page/2",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productDetailPageDefault.default), {
+                        ...productDetailPageData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 47,
@@ -27168,9 +27168,9 @@ function App() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/product-search-result",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productSearchResultDefault.default), {
-                        ...productSearchResultData
+                    path: "/home-design",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDesignDefault.default), {
+                        ...homeDesignData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 50,
@@ -27182,9 +27182,9 @@ function App() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/uploadpage",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _uploadPageDefault.default), {
-                        ...uploadPageData
+                    path: "/product-search-result",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productSearchResultDefault.default), {
+                        ...productSearchResultData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 53,
@@ -27196,9 +27196,9 @@ function App() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/sign-in",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signInDefault.default), {
-                        ...signInData
+                    path: "/uploadpage",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _uploadPageDefault.default), {
+                        ...uploadPageData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 56,
@@ -27210,9 +27210,9 @@ function App() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/sign-up",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signUpDefault.default), {
-                        ...signUpData
+                    path: "/sign-in",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signInDefault.default), {
+                        ...signInData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 59,
@@ -27221,6 +27221,20 @@ function App() {
                 }, void 0, false, {
                     fileName: "App.jsx",
                     lineNumber: 58,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/sign-up",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signUpDefault.default), {
+                        ...signUpData
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 62,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this)
             ]
@@ -27279,19 +27293,19 @@ const productSearchResultData = {
     t: "CATALOG",
     loremIpsumIsSimpl: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     showingnumofitem: "Showing",
-    x111: "/img/11-1-1@2x.png",
+    x111: "/img/desk4.png",
     windsorWhiteOak: "Windsor White Oak",
-    x141: "/img/14-1@2x.png",
+    x141: "/img/desk1.png",
     zurichPearl6060: "Zurich Pearl 60\xd760",
-    x101: "/img/10-1-1@2x.png",
+    x101: "/img/desk5.png",
     sicilyGreyDcor3060: "Sicily Grey D\xe9cor 30\xd760",
-    x131: "/img/13-1@2x.png",
+    x131: "/img/desk2.png",
     zurichGrey6060: "Zurich Grey 60\xd760",
-    x961: "/img/9-61-1@2x.png",
+    x961: "/img/desk6.png",
     sardiniaWhite: "Sardinia White",
-    x121: "/img/12-1@2x.png",
+    x121: "/img/desk3.png",
     zurichDarkGrey6060: "Zurich Dark Grey 60\xd760",
-    x81: "/img/8-1-1@2x.png",
+    x81: "/img/desk7.png",
     sicilyGrey3060: "Sicily Grey 30\xd760",
     products: "Products",
     teaminfo: "Teaminfo",
@@ -27302,9 +27316,9 @@ const productSearchResultData = {
     copyright2023AllRightsReserved: "Copyright \xa9 2022 | All Rights Reserved."
 };
 const homeDesignData = {
-    welcometext: "Welcome,",
+    welcometext: "Welcome",
     place: "HOME",
-    postbutton: "CONTACT",
+    postbutton: "UPLOAD",
     productstitle: "Products",
     productdescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     group1Pics: "/img/group1pics.png",
@@ -27358,13 +27372,13 @@ const signInData = {
             "All of our Products",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 186,
+                lineNumber: 189,
                 columnNumber: 51
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 186,
+        lineNumber: 189,
         columnNumber: 16
     }, undefined),
     spanText4: "has 3D models in AR views",
@@ -27385,13 +27399,13 @@ const signUpData = {
             "All of our Products",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 201,
+                lineNumber: 204,
                 columnNumber: 51
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 201,
+        lineNumber: 204,
         columnNumber: 16
     }, undefined),
     spanText4: "has 3D models in AR views",
@@ -27405,7 +27419,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ProductDetailPage":"6yGRM","./components/HomeDesign":"hArNU","./components/ProductSearchResult":"dJr7v","./components/UploadPage":"kqciy","./components/SignIn":"5hBC8","./components/SignUp":"1TuAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","jwt-decode":"ljM1w"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/ProductDetailPage":"6yGRM","./components/HomeDesign":"hArNU","./components/ProductSearchResult":"dJr7v","./components/UploadPage":"kqciy","./components/SignIn":"5hBC8","./components/SignUp":"1TuAn","jwt-decode":"ljM1w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -31253,17 +31267,24 @@ function HomeDesign(props) {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "flex-row-4 proximanova-bold-cod-gray-16px",
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "place-1 valign-text-middle",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/home-design",
                                     children: place
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
                                     lineNumber: 50,
-                                    columnNumber: 13
+                                    columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "post-button valign-text-middle",
-                                    children: postbutton
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/UploadPage",
+                                        children: postbutton
+                                    }, void 0, false, {
+                                        fileName: "components/HomeDesign/index.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
                                     lineNumber: 51,
@@ -31284,7 +31305,7 @@ function HomeDesign(props) {
                                     alt: "Vector"
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 54,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31295,14 +31316,14 @@ function HomeDesign(props) {
                                             children: productstitle
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 56,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "rectangle-1091"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 57,
+                                            lineNumber: 59,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31310,13 +31331,13 @@ function HomeDesign(props) {
                                             children: productdescription
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 55,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31331,7 +31352,7 @@ function HomeDesign(props) {
                                                     alt: "group1pics"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 64,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31340,12 +31361,12 @@ function HomeDesign(props) {
                                                         className: "product1-space"
                                                     }, void 0, false, {
                                                         fileName: "components/HomeDesign/index.jsx",
-                                                        lineNumber: 64,
+                                                        lineNumber: 66,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 63,
+                                                    lineNumber: 65,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31353,7 +31374,7 @@ function HomeDesign(props) {
                                                     children: productname1
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 68,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31361,13 +31382,13 @@ function HomeDesign(props) {
                                                     children: productdescription1
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 69,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 61,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31379,7 +31400,7 @@ function HomeDesign(props) {
                                                     alt: "group2pic"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 72,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31388,12 +31409,12 @@ function HomeDesign(props) {
                                                         className: "product2-space"
                                                     }, void 0, false, {
                                                         fileName: "components/HomeDesign/index.jsx",
-                                                        lineNumber: 72,
+                                                        lineNumber: 74,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 71,
+                                                    lineNumber: 73,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31401,7 +31422,7 @@ function HomeDesign(props) {
                                                     children: productname2
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 76,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31409,13 +31430,13 @@ function HomeDesign(props) {
                                                     children: productdescripti2
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 69,
+                                            lineNumber: 71,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31430,7 +31451,7 @@ function HomeDesign(props) {
                                                             alt: "group2pic"
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 81,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31439,12 +31460,12 @@ function HomeDesign(props) {
                                                                 className: "product"
                                                             }, void 0, false, {
                                                                 fileName: "components/HomeDesign/index.jsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 83,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 80,
+                                                            lineNumber: 82,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31452,7 +31473,7 @@ function HomeDesign(props) {
                                                             children: productname3
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 85,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31460,13 +31481,13 @@ function HomeDesign(props) {
                                                             children: productdescript3
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 84,
+                                                            lineNumber: 86,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 80,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31478,7 +31499,7 @@ function HomeDesign(props) {
                                                             alt: "group4pic"
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 87,
+                                                            lineNumber: 89,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31487,12 +31508,12 @@ function HomeDesign(props) {
                                                                 className: "product"
                                                             }, void 0, false, {
                                                                 fileName: "components/HomeDesign/index.jsx",
-                                                                lineNumber: 89,
+                                                                lineNumber: 91,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 88,
+                                                            lineNumber: 90,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31500,7 +31521,7 @@ function HomeDesign(props) {
                                                             children: productname4
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 91,
+                                                            lineNumber: 93,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31508,25 +31529,25 @@ function HomeDesign(props) {
                                                             children: productdescript4
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 92,
+                                                            lineNumber: 94,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 88,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 77,
+                                            lineNumber: 79,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31535,7 +31556,7 @@ function HomeDesign(props) {
                                     alt: "HomeBG"
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 96,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31549,7 +31570,7 @@ function HomeDesign(props) {
                                             children: projectname
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 98,
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31557,19 +31578,19 @@ function HomeDesign(props) {
                                             children: projectdetails
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 97,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 53,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31582,7 +31603,7 @@ function HomeDesign(props) {
                                             className: "logo-ending-1"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 104,
+                                            lineNumber: 106,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31593,7 +31614,7 @@ function HomeDesign(props) {
                                                     children: products
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 108,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31601,13 +31622,13 @@ function HomeDesign(props) {
                                                     children: teaminfo
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 109,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31618,7 +31639,7 @@ function HomeDesign(props) {
                                                     children: project
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 112,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31626,13 +31647,13 @@ function HomeDesign(props) {
                                                     children: projectabout
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 113,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 111,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31643,7 +31664,7 @@ function HomeDesign(props) {
                                                     children: contactInformation
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 116,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31651,19 +31672,19 @@ function HomeDesign(props) {
                                                     children: teamMember
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 117,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 103,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31675,7 +31696,7 @@ function HomeDesign(props) {
                                             alt: "icon-facebook"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31684,7 +31705,7 @@ function HomeDesign(props) {
                                             alt: "icon-twitter"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 120,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31696,7 +31717,7 @@ function HomeDesign(props) {
                                                     alt: "insIcon2"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 124,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31705,19 +31726,19 @@ function HomeDesign(props) {
                                                     alt: "InsIcon"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 125,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31725,13 +31746,13 @@ function HomeDesign(props) {
                                     children: copyright2023AllRightsReserved
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 126,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 102,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this)
                     ]
@@ -31749,7 +31770,7 @@ function HomeDesign(props) {
                             alt: "Group 5251"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 132,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31758,13 +31779,13 @@ function HomeDesign(props) {
                             alt: "Vector"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 133,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/HomeDesign/index.jsx",
-                    lineNumber: 131,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, this)
             ]
@@ -31983,9 +32004,9 @@ function ProductSearchResult(props) {
                                                 className: "overlap-group-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                        className: "x14-1",
+                                                        className: "desk1",
                                                         src: x141,
-                                                        alt: "14 1"
+                                                        alt: "desk1"
                                                     }, void 0, false, {
                                                         fileName: "components/ProductSearchResult/index.jsx",
                                                         lineNumber: 73,
@@ -32697,9 +32718,13 @@ function SignIn(props) {
     };
     async function submit(e) {
         try {
-            await (0, _axiosDefault.default).post("http://localhost:5000/", {
-                email: email,
-                password: password
+            await (0, _axiosDefault.default).post("http://localhost:8000/", {
+                email,
+                password
+            }).then((res)=>{
+                console.debug(res);
+                if (res.data === "exist") window.location.href = "http://localhost:1234/home-design?=" + res.name;
+                else if (res.data === "notexist") alert("Log in failed, please sign up first.");
             });
         } catch (e1) {
             console.log(e1);
@@ -32719,7 +32744,7 @@ function SignIn(props) {
                                 className: "white-bg"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 54,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32727,7 +32752,7 @@ function SignIn(props) {
                                 children: signInHeading
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 55,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32735,7 +32760,7 @@ function SignIn(props) {
                                 id: "SignInDiv"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 56,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32743,7 +32768,7 @@ function SignIn(props) {
                                 children: or
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 57,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -32752,7 +32777,7 @@ function SignIn(props) {
                                 alt: "EmailInput"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 58,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -32762,7 +32787,7 @@ function SignIn(props) {
                                 placeholder: "Email"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 59,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -32771,7 +32796,7 @@ function SignIn(props) {
                                 alt: "PasswordInput"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 60,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -32781,7 +32806,7 @@ function SignIn(props) {
                                 placeholder: "Password"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 61,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -32790,7 +32815,7 @@ function SignIn(props) {
                                 onClick: submit
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 62,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32798,7 +32823,7 @@ function SignIn(props) {
                                 children: signintext
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 63,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -32809,7 +32834,7 @@ function SignIn(props) {
                                         children: spanText1
                                     }, void 0, false, {
                                         fileName: "components/SignIn/index.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -32817,13 +32842,13 @@ function SignIn(props) {
                                         children: spanText2
                                     }, void 0, false, {
                                         fileName: "components/SignIn/index.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 72,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 64,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -32832,13 +32857,13 @@ function SignIn(props) {
                                 alt: "Abstraction"
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 68,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/SignIn/index.jsx",
-                        lineNumber: 53,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -32849,7 +32874,7 @@ function SignIn(props) {
                                 children: spanText3
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 71,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -32857,13 +32882,13 @@ function SignIn(props) {
                                 children: spanText4
                             }, void 0, false, {
                                 fileName: "components/SignIn/index.jsx",
-                                lineNumber: 72,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/SignIn/index.jsx",
-                        lineNumber: 70,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -32871,23 +32896,23 @@ function SignIn(props) {
                         children: theBestECommerce
                     }, void 0, false, {
                         fileName: "components/SignIn/index.jsx",
-                        lineNumber: 74,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/SignIn/index.jsx",
-                lineNumber: 52,
+                lineNumber: 58,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "components/SignIn/index.jsx",
-            lineNumber: 51,
+            lineNumber: 57,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/SignIn/index.jsx",
-        lineNumber: 50,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }
@@ -32902,7 +32927,7 @@ $RefreshReg$(_c, "SignIn");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./SignIn.css":"gnewu","react-router-dom":"cHIiW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","axios":"jo6P5"}],"gnewu":[function() {},{}],"jo6P5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./SignIn.css":"gnewu","react-router-dom":"cHIiW","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gnewu":[function() {},{}],"jo6P5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _axiosJsDefault.default));
@@ -37034,9 +37059,13 @@ function SignUp(props) {
     };
     async function submit(e) {
         try {
-            await (0, _axiosDefault.default).post("http://localhost:5000/", {
-                email: email,
-                password: password
+            await (0, _axiosDefault.default).post("http://localhost:8000/signup", {
+                fullname,
+                email,
+                password
+            }).then((res)=>{
+                if (res.data === "notexist") window.location.href = "http://localhost:1234/home-design";
+                else if (res.data === "exist") alert("User exists!");
             });
         } catch (e1) {
             console.log(e1);
@@ -37056,7 +37085,7 @@ function SignUp(props) {
                                 className: "white-bg-1"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 58,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37064,7 +37093,7 @@ function SignUp(props) {
                                 children: createAccountTitle
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 59,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37072,7 +37101,7 @@ function SignUp(props) {
                                 className: "continue-with-google-box"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 60,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37080,7 +37109,7 @@ function SignUp(props) {
                                 children: or
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 61,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -37089,7 +37118,7 @@ function SignUp(props) {
                                 alt: "FullNameInputBox"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 62,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -37099,7 +37128,7 @@ function SignUp(props) {
                                 placeholder: "Fullname"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 63,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -37109,7 +37138,7 @@ function SignUp(props) {
                                 placeholder: "Email"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 64,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -37118,7 +37147,7 @@ function SignUp(props) {
                                 alt: "EmailInputBox"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 65,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -37128,7 +37157,7 @@ function SignUp(props) {
                                 placeholder: "Password"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 66,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -37137,7 +37166,7 @@ function SignUp(props) {
                                 alt: "PasswordInputBox"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 67,
+                                lineNumber: 71,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -37148,7 +37177,7 @@ function SignUp(props) {
                                         children: spanText1
                                     }, void 0, false, {
                                         fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 69,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -37156,20 +37185,22 @@ function SignUp(props) {
                                         children: spanText2
                                     }, void 0, false, {
                                         fileName: "components/SignUp/index.jsx",
-                                        lineNumber: 70,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 68,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "create-account-button"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                className: "create-account-button",
+                                onClick: submit
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 72,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37177,7 +37208,7 @@ function SignUp(props) {
                                 children: createaccounttext
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 73,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -37186,13 +37217,13 @@ function SignUp(props) {
                                 alt: "Abstraction"
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 74,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/SignUp/index.jsx",
-                        lineNumber: 57,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -37203,7 +37234,7 @@ function SignUp(props) {
                                 children: spanText3
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 77,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -37211,13 +37242,13 @@ function SignUp(props) {
                                 children: spanText4
                             }, void 0, false, {
                                 fileName: "components/SignUp/index.jsx",
-                                lineNumber: 78,
+                                lineNumber: 82,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/SignUp/index.jsx",
-                        lineNumber: 76,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -37225,23 +37256,23 @@ function SignUp(props) {
                         children: theBestECommerce
                     }, void 0, false, {
                         fileName: "components/SignUp/index.jsx",
-                        lineNumber: 80,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/SignUp/index.jsx",
-                lineNumber: 56,
+                lineNumber: 60,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "components/SignUp/index.jsx",
-            lineNumber: 55,
+            lineNumber: 59,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/SignUp/index.jsx",
-        lineNumber: 54,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
@@ -37256,7 +37287,7 @@ $RefreshReg$(_c, "SignUp");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./SignUp.css":"10v8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","axios":"jo6P5"}],"10v8K":[function() {},{}],"ljM1w":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./SignUp.css":"10v8K","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"10v8K":[function() {},{}],"ljM1w":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "InvalidTokenError", ()=>n);

@@ -47,8 +47,10 @@ function HomeDesign(props) {
         </div>
         <div className="flex-col-3">
           <div className="flex-row-4 proximanova-bold-cod-gray-16px">
-            <div className="place-1 valign-text-middle">{place}</div>
-            <div className="post-button valign-text-middle">{postbutton}</div>
+          <Link to="/home-design">{place}</Link>
+            <div className="post-button valign-text-middle">
+              <Link to="/UploadPage">{postbutton}</Link>
+            </div>
           </div>
           <div className="overlap-group4-1">
             <img className="vector" src="/img/vector-1.svg" alt="Vector" />

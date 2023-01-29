@@ -33,17 +33,23 @@ function SignIn(props ) {
   setPassword(event.target.value);
 };
 
-async function submit(e) 
-{
+async function submit(e){
   try{
-     await axios.post("http://localhost:5000/",{ 
-        email:email,password:password
-     })
-   }
-   catch(e)
-   {
-    console.log(e);
-   }
+      await axios.post("http://localhost:8000/",{
+          email,password
+      })
+      .then(res=>{
+          console.debug(res);
+          if(res.data==="exist"){
+            window.location.href = "http://localhost:1234/home-design?=" + res.name;
+          }else if(res.data==="notexist"){
+              alert("Log in failed, please sign up first.")
+          }
+      })
+  }
+  catch(e){
+          console.log(e);
+  }
 }
 
   return (
