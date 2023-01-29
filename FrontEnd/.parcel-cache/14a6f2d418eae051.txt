@@ -19,7 +19,7 @@
 95C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\@parcel\core\src\requests\AssetRequest.js133194192641836032 0
 61C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\timsort133194192607858742 1
 96C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\@parcel\core\src\serializerCore.browser.js133194192643466031 0
-45C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist133194249605911887 1
+45C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist133194251837150366 1
 62C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\static\img\fbicon.svg133194191536971286 0
 85C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\react-router\es\MemoryRouter.js133194192608808728 0
 114C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\htmlnano\docs\versioned_sidebars\version-2.0.0-sidebars.json133194192611829996 0
@@ -66,7 +66,7 @@
 88C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\static\fonts\Mark Simonson - Proxima Nova A.otf133194191536681283 0
 97C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\caniuse-lite\data\features\css-boxshadow.js133194192639746034 0
 128C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias\package.json133194192613869998 0
-48C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\App.jsx133194246598669348 0
+48C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\App.jsx133194250927010142 0
 84C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\yaml\dist\warnings-1000a372.js133194192611779992 0
 111C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs133194192614249997 0
 96C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\caniuse-lite\data\features\console-time.js133194192639596031 0
@@ -4905,15 +4905,15 @@
 67C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\.bin\svgo.cmd133194192788324281 0
 61C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\img\15-1@2x.png133194191536821284 0
 65C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\node_modules\.bin\terser133194192788344282 0
-63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\.173.ce74abb2.otf133194249604651889 0
+63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\.173.ce74abb2.otf133194250819933601 0
 49C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\img133194192916568785 1
-63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.3d214d75.js133194249605821893 0
-67C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.3d214d75.js.map133194249605901887 0
-64C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.e1b8c111.css133194249605361896 0
-68C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.e1b8c111.css.map133194249605381887 0
-56C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.html133194249605621886 0
-89C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\Mark Simonson - Proxima Nova A.7281068d.otf133194249604611886 0
-92C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\Mark Simonson - Proxima Nova Bold.29ddb98a.otf133194249604641886 0
+63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.3d214d75.js133194251837065746 0
+67C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.3d214d75.js.map133194251837139967 0
+64C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.e1b8c111.css133194250819355564 0
+68C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.e1b8c111.css.map133194250819385573 0
+56C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\index.html133194250819245566 0
+89C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\Mark Simonson - Proxima Nova A.7281068d.otf133194250819265571 0
+92C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\Mark Simonson - Proxima Nova Bold.29ddb98a.otf133194250819933601 0
 63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\img\10-1-1@2x.png133194191536711283 0
 61C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\img\10-1@2x.png133194191536721283 0
 63C:\Users\kirk\3d_ecom_mchacks10\FrontEnd\dist\img\11-1-1@2x.png133194191536731290 0

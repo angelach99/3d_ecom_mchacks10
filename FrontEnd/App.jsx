@@ -9,13 +9,10 @@ import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 
 function App() {
-
   function handleCallbackResponse(response)
   {
-    var userObject = jwt_decode("response.credential");
-    console.log(userObject);
-  }
 
+  }
   useEffect(()=>
   {
     /* global google */
