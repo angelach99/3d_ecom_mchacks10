@@ -1,5 +1,4 @@
 import React from "react";
-import Group5405 from "../Group5405";
 import "./ProductDetailPage.css";
 
 function ProductDetailPage(props) {
@@ -75,7 +74,6 @@ function ProductDetailPage(props) {
               <img className="x11-1" src={x111} alt="11 1" />
               <div className="overlap-group-1">
                 <div className="rectangle-113"></div>
-                <Group5405 />
                 <div className="windsor-white-oak proximanova-normal-woodsmoke-26px">{windsorWhiteOak}</div>
               </div>
             </div>
@@ -83,7 +81,6 @@ function ProductDetailPage(props) {
               <img className="x10-1" src={x101} alt="10 1" />
               <div className="overlap-group-2">
                 <div className="rectangle-113"></div>
-                <Group5405 />
                 <div className="sicily-grey-dcor-3060 proximanova-normal-woodsmoke-26px">{sicilyGreyDcor3060}</div>
               </div>
             </div>
@@ -91,7 +88,6 @@ function ProductDetailPage(props) {
               <img className="x9-61" src={x961} alt="9 61" />
               <div className="overlap-group-3">
                 <div className="rectangle-113"></div>
-                <Group5405 />
                 <div className="sardinia-white proximanova-normal-woodsmoke-26px">{sardiniaWhite}</div>
               </div>
             </div>
@@ -99,7 +95,6 @@ function ProductDetailPage(props) {
               <img className="x8-1" src={x81} alt="8 1" />
               <div className="overlap-group-1">
                 <div className="rectangle-113"></div>
-                <Group5405 />
                 <div className="sicily-grey-3060 proximanova-normal-woodsmoke-26px">{sicilyGrey3060}</div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Group5405 from "../Group5405";
 import Component1 from "../Component1";
 import "./ProductSearchResult.css";
 
@@ -72,7 +71,6 @@ function ProductSearchResult(props) {
                   <img className="x11-1-1" src={x111} alt="11 1" />
                   <div className="overlap-group-7">
                     <div className="windsor-white-oak-1 proximanova-normal-woodsmoke-26px">{windsorWhiteOak}</div>
-                    <Group5405 className={group54051Props.className} />
                   </div>
                 </div>
               </div>
@@ -84,7 +82,6 @@ function ProductSearchResult(props) {
                     <img className="x14-1" src={x141} alt="14 1" />
                     <div className="overlap-group-6">
                       <div className="zurich-pearl-6060 proximanova-normal-woodsmoke-26px">{zurichPearl6060}</div>
-                      <Group5405 className={group54052Props.className} />
                     </div>
                   </div>
                 </div>
@@ -97,7 +94,6 @@ function ProductSearchResult(props) {
                       <div className="sicily-grey-dcor-3060-1 proximanova-normal-woodsmoke-26px">
                         {sicilyGreyDcor3060}
                       </div>
-                      <Group5405 className={group54053Props.className} />
                     </div>
                   </div>
                 </div>
@@ -110,7 +106,6 @@ function ProductSearchResult(props) {
                     <img className="x13-1" src={x131} alt="13 1" />
                     <div className="overlap-group-6">
                       <div className="zurich-grey-6060 proximanova-normal-woodsmoke-26px">{zurichGrey6060}</div>
-                      <Group5405 className={group54054Props.className} />
                     </div>
                   </div>
                 </div>
@@ -121,7 +116,6 @@ function ProductSearchResult(props) {
                     <img className="x9-61-1" src={x961} alt="9 61" />
                     <div className="overlap-group-9">
                       <div className="sardinia-white-1 proximanova-normal-woodsmoke-26px">{sardiniaWhite}</div>
-                      <Group5405 className={group54055Props.className} />
                     </div>
                   </div>
                 </div>
@@ -136,7 +130,6 @@ function ProductSearchResult(props) {
                       <div className="zurich-dark-grey-6060 proximanova-normal-woodsmoke-26px">
                         {zurichDarkGrey6060}
                       </div>
-                      <Group5405 className={group54056Props.className} />
                     </div>
                   </div>
                 </div>
@@ -147,7 +140,6 @@ function ProductSearchResult(props) {
                     <img className="x8-1-1" src={x81} alt="8 1" />
                     <div className="overlap-group-11">
                       <div className="sicily-grey-3060-1 proximanova-normal-woodsmoke-26px">{sicilyGrey3060}</div>
-                      <Group5405 className={group54057Props.className} />
                     </div>
                   </div>
                 </div>
@@ -182,7 +174,7 @@ function ProductSearchResult(props) {
             <img className="icon-facebook-2" src="/img/fbicon.svg" alt="icon-facebook" />
             <img className="icon-twitter-2" src="/img/twittericon.svg" alt="icon-twitter" />
             <div className="insicon-container-2">
-              <img className="ins-icon2-2" src="/img/insicon2.svg" alt="insIcon2" />
+              <img className="ins-icon2-2" src="/img/cinsicon2.svg" alt="insIcon2" />
               <img className="ins-icon-2" src="/img/insicon.svg" alt="InsIcon" />
             </div>
           </div>
