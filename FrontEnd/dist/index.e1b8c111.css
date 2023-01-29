@@ -1792,11 +1792,8 @@ input {
 }
 
 .qr-code {
-  border: 1px solid;
-  border-color: var(--sea-pink);
   height: 250px;
   width: 250px;
-  border-radius: 6px;
   position: absolute;
   top: 202px;
   left: 1407px;

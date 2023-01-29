@@ -99,6 +99,7 @@ const productDetailPageData1 = {
   teamMember: "Team Member",
   copyright2023AllRightsReserved: "Copyright © 2022 | All Rights Reserved.",
   searchicon2: "/img/searchicon@2x.png",
+  qrsrc:"/img/qr1.jpg", 
 };
 
 const productDetailPageData2 = {
@@ -132,6 +133,7 @@ const productDetailPageData2 = {
     teamMember: "Team Member",
     copyright2023AllRightsReserved: "Copyright © 2023 | All Rights Reserved.",
     searchicon2: "/img/searchicon@2x.png",
+    qrsrc:"",
 };
 
 const productSearchResultData = {

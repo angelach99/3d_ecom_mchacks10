@@ -27282,7 +27282,8 @@ const productDetailPageData1 = {
     contactInformation: "Contact Information",
     teamMember: "Team Member",
     copyright2023AllRightsReserved: "Copyright \xa9 2022 | All Rights Reserved.",
-    searchicon2: "/img/searchicon@2x.png"
+    searchicon2: "/img/searchicon@2x.png",
+    qrsrc: "/img/qr1.jpg"
 };
 const productDetailPageData2 = {
     welcometext: "Welcome,",
@@ -27314,7 +27315,8 @@ const productDetailPageData2 = {
     contactInformation: "Contact Information",
     teamMember: "Team Member",
     copyright2023AllRightsReserved: "Copyright \xa9 2023 | All Rights Reserved.",
-    searchicon2: "/img/searchicon@2x.png"
+    searchicon2: "/img/searchicon@2x.png",
+    qrsrc: ""
 };
 const productSearchResultData = {
     iconSearch: "/img/group-5378@2x.png",
@@ -27404,13 +27406,13 @@ const signInData = {
             "All of our Products",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 223,
+                lineNumber: 225,
                 columnNumber: 51
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 223,
+        lineNumber: 225,
         columnNumber: 16
     }, undefined),
     spanText4: "has 3D models in AR views",
@@ -27431,13 +27433,13 @@ const signUpData = {
             "All of our Products",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 238,
+                lineNumber: 240,
                 columnNumber: 51
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 238,
+        lineNumber: 240,
         columnNumber: 16
     }, undefined),
     spanText4: "has 3D models in AR views",
@@ -30501,7 +30503,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _productDetailPageCss = require("./ProductDetailPage.css");
 function ProductDetailPage(props) {
-    const { welcometext , place , post , maskGroup , currpic , price , title1 , number , addToCartText , pathHome , pathPost , pathProductName , description , title2 , x111 , windsorWhiteOak , x101 , sicilyGreyDcor3060 , x961 , sardiniaWhite , x81 , sicilyGrey3060 , products , teaminfo , project , projectabout , contactInformation , teamMember , copyright2023AllRightsReserved , searchicon2  } = props;
+    const { welcometext , place , post , maskGroup , currpic , price , title1 , number , addToCartText , pathHome , pathPost , pathProductName , description , title2 , x111 , windsorWhiteOak , x101 , sicilyGreyDcor3060 , x961 , sardiniaWhite , x81 , sicilyGrey3060 , products , teaminfo , project , projectabout , contactInformation , teamMember , copyright2023AllRightsReserved , searchicon2 , qrsrc  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-center-horizontal",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30516,7 +30518,7 @@ function ProductDetailPage(props) {
                             alt: "icon-search"
                         }, void 0, false, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 42,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30526,20 +30528,20 @@ function ProductDetailPage(props) {
                                     className: "logo"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "logo-1"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30548,7 +30550,7 @@ function ProductDetailPage(props) {
                             alt: "smallManIcon"
                         }, void 0, false, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30556,13 +30558,13 @@ function ProductDetailPage(props) {
                             children: welcometext
                         }, void 0, false, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 48,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/ProductDetailPage/index.jsx",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30576,7 +30578,7 @@ function ProductDetailPage(props) {
                                     children: place
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30584,13 +30586,13 @@ function ProductDetailPage(props) {
                                     children: post
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 53,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30602,14 +30604,14 @@ function ProductDetailPage(props) {
                                     alt: "Mask group"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "path-space"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30618,7 +30620,7 @@ function ProductDetailPage(props) {
                                     alt: "currPic"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30626,7 +30628,7 @@ function ProductDetailPage(props) {
                                     children: price
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 59,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30634,21 +30636,21 @@ function ProductDetailPage(props) {
                                     children: title1
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "add-to-cary-button"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "quantaty"
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 62,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30656,7 +30658,7 @@ function ProductDetailPage(props) {
                                     children: number
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30664,7 +30666,7 @@ function ProductDetailPage(props) {
                                     children: addToCartText
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30672,7 +30674,7 @@ function ProductDetailPage(props) {
                                     children: pathHome
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30680,7 +30682,7 @@ function ProductDetailPage(props) {
                                     children: pathPost
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30688,7 +30690,7 @@ function ProductDetailPage(props) {
                                     children: pathProductName
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 67,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30696,20 +30698,21 @@ function ProductDetailPage(props) {
                                     children: description
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 68,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "qr-code"
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "qr-code",
+                                    src: qrsrc
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 55,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -30717,7 +30720,7 @@ function ProductDetailPage(props) {
                             children: title2
                         }, void 0, false, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 71,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30732,7 +30735,7 @@ function ProductDetailPage(props) {
                                             alt: "11 1"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 74,
+                                            lineNumber: 75,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30742,7 +30745,7 @@ function ProductDetailPage(props) {
                                                     className: "rectangle-113"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30750,19 +30753,19 @@ function ProductDetailPage(props) {
                                                     children: windsorWhiteOak
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 78,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 73,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30774,7 +30777,7 @@ function ProductDetailPage(props) {
                                             alt: "10 1"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30784,7 +30787,7 @@ function ProductDetailPage(props) {
                                                     className: "rectangle-113"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30792,19 +30795,19 @@ function ProductDetailPage(props) {
                                                     children: sicilyGreyDcor3060
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 82,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30816,7 +30819,7 @@ function ProductDetailPage(props) {
                                             alt: "9 61"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30826,7 +30829,7 @@ function ProductDetailPage(props) {
                                                     className: "rectangle-113"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 91,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30834,19 +30837,19 @@ function ProductDetailPage(props) {
                                                     children: sardiniaWhite
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30858,7 +30861,7 @@ function ProductDetailPage(props) {
                                             alt: "8 1"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 95,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30868,7 +30871,7 @@ function ProductDetailPage(props) {
                                                     className: "rectangle-113"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 98,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30876,25 +30879,25 @@ function ProductDetailPage(props) {
                                                     children: sicilyGrey3060
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 99,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 96,
+                                            lineNumber: 97,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 72,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30907,7 +30910,7 @@ function ProductDetailPage(props) {
                                             className: "logo-ending"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 104,
+                                            lineNumber: 105,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30918,7 +30921,7 @@ function ProductDetailPage(props) {
                                                     children: products
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 107,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30926,13 +30929,13 @@ function ProductDetailPage(props) {
                                                     children: teaminfo
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 108,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 106,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30943,7 +30946,7 @@ function ProductDetailPage(props) {
                                                     children: project
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 111,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30951,13 +30954,13 @@ function ProductDetailPage(props) {
                                                     children: projectabout
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 112,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30968,7 +30971,7 @@ function ProductDetailPage(props) {
                                                     children: contactInformation
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 115,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30976,19 +30979,19 @@ function ProductDetailPage(props) {
                                                     children: teamMember
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 116,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 103,
+                                    lineNumber: 104,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31000,7 +31003,7 @@ function ProductDetailPage(props) {
                                             alt: "icon-facebook"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31009,7 +31012,7 @@ function ProductDetailPage(props) {
                                             alt: "icon-twitter"
                                         }, void 0, false, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 120,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31021,7 +31024,7 @@ function ProductDetailPage(props) {
                                                     alt: "insIcon2"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 123,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31030,19 +31033,19 @@ function ProductDetailPage(props) {
                                                     alt: "InsIcon"
                                                 }, void 0, false, {
                                                     fileName: "components/ProductDetailPage/index.jsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 124,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/ProductDetailPage/index.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 119,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31050,13 +31053,13 @@ function ProductDetailPage(props) {
                                     children: copyright2023AllRightsReserved
                                 }, void 0, false, {
                                     fileName: "components/ProductDetailPage/index.jsx",
-                                    lineNumber: 126,
+                                    lineNumber: 127,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 102,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31065,24 +31068,24 @@ function ProductDetailPage(props) {
                             alt: "SearchIcon"
                         }, void 0, false, {
                             fileName: "components/ProductDetailPage/index.jsx",
-                            lineNumber: 130,
+                            lineNumber: 131,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/ProductDetailPage/index.jsx",
-                    lineNumber: 50,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/ProductDetailPage/index.jsx",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/ProductDetailPage/index.jsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }

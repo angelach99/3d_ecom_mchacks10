@@ -33,6 +33,7 @@ function ProductDetailPage(props) {
     teamMember,
     copyright2023AllRightsReserved,
     searchicon2,
+    qrsrc,
   } = props;
 
   return (
@@ -66,7 +67,7 @@ function ProductDetailPage(props) {
             <div className="path-post poppins-normal-white-20px">{pathPost}</div>
             <div className="path-product-name poppins-normal-white-20px">{pathProductName}</div>
             <div className="description poppins-semi-bold-star-dust-12px">{description}</div>
-            <div className="qr-code"></div>
+            <img className="qr-code" src = {qrsrc}></img>
           </div>
           <h1 className="title-1">{title2}</h1>
           <div className="search-result">

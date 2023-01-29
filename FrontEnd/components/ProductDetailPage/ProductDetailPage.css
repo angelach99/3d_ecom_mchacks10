@@ -228,9 +228,6 @@
 }
 
 .qr-code {
-  border: 1px solid;
-  border-color: var(--sea-pink);
-  border-radius: 6px;
   height: 250px;
   left: 1407px;
   position: absolute;
