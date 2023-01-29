@@ -1,4 +1,5 @@
-import React from "react";
+import e from "cors";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./HomeDesign.css";
 
@@ -35,12 +36,24 @@ function HomeDesign(props) {
     group5251,
     vector2,
   } = props;
+  
+  const [input,setInput] = useState("")
+  const onChangeHandler_Input = event => {
+    setInput(event.target.value);
+  };
+
+  function onKeyUp(e)
+  {
+    if(e.key === "Enter" && input === "Desk")
+      window.location.href = "http://localhost:1234/product-search-result"
+  }
 
   return (
     <div className="container-center-horizontal">
       <div className="home-design screen">
         <div className="flex-row-3">
           <img className="icon-search-1" src="/img/searchicon-2.svg" alt="icon-search" />
+          <input type="text" onChange={onChangeHandler_Input} placeholder="Search.." onKeyUp={onKeyUp}/>
           <div className="logo-2"></div>
           <img className="small-man-icon-1" src="/img/smallmanicon-1.svg" alt="smallManIcon" />
           <div className="welcome-text-1 poppins-medium-star-dust-14px">{welcometext}</div>

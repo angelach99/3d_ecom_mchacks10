@@ -31208,12 +31208,23 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _cors = require("cors");
+var _corsDefault = parcelHelpers.interopDefault(_cors);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _homeDesignCss = require("./HomeDesign.css");
+var _s = $RefreshSig$();
 function HomeDesign(props) {
+    _s();
     const { welcometext , place , postbutton , productstitle , productdescription , group1Pics , productname1 , productdescription1 , group2Pic1 , productname2 , productdescripti2 , group2Pic2 , productname3 , productdescript3 , group4Pic , productname4 , productdescript4 , homebg , hometext , projectname , projectdetails , products , teaminfo , project , projectabout , contactInformation , teamMember , copyright2023AllRightsReserved , group5251 , vector2  } = props;
+    const [input, setInput] = (0, _react.useState)("");
+    const onChangeHandler_Input = (event)=>{
+        setInput(event.target.value);
+    };
+    function onKeyUp(e) {
+        if (e.key === "Enter" && input === "Desk") window.location.href = "http://localhost:1234/product-search-result";
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-center-horizontal",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31228,14 +31239,24 @@ function HomeDesign(props) {
                             alt: "icon-search"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 43,
+                            lineNumber: 55,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            onChange: onChangeHandler_Input,
+                            placeholder: "Search..",
+                            onKeyUp: onKeyUp
+                        }, void 0, false, {
+                            fileName: "components/HomeDesign/index.jsx",
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "logo-2"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 44,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31244,7 +31265,7 @@ function HomeDesign(props) {
                             alt: "smallManIcon"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 45,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31252,13 +31273,13 @@ function HomeDesign(props) {
                             children: welcometext
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 46,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/HomeDesign/index.jsx",
-                    lineNumber: 42,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31272,7 +31293,7 @@ function HomeDesign(props) {
                                     children: place
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 50,
+                                    lineNumber: 63,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31282,18 +31303,18 @@ function HomeDesign(props) {
                                         children: postbutton
                                     }, void 0, false, {
                                         fileName: "components/HomeDesign/index.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 51,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 49,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31305,7 +31326,7 @@ function HomeDesign(props) {
                                     alt: "Vector"
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31316,14 +31337,14 @@ function HomeDesign(props) {
                                             children: productstitle
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 71,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "rectangle-1091"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 59,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31331,13 +31352,13 @@ function HomeDesign(props) {
                                             children: productdescription
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 60,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31352,7 +31373,7 @@ function HomeDesign(props) {
                                                     alt: "group1pics"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31361,12 +31382,12 @@ function HomeDesign(props) {
                                                         className: "product1-space"
                                                     }, void 0, false, {
                                                         fileName: "components/HomeDesign/index.jsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 79,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 78,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31374,7 +31395,7 @@ function HomeDesign(props) {
                                                     children: productname1
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 81,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31382,13 +31403,13 @@ function HomeDesign(props) {
                                                     children: productdescription1
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 82,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 63,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31400,7 +31421,7 @@ function HomeDesign(props) {
                                                     alt: "group2pic"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31409,12 +31430,12 @@ function HomeDesign(props) {
                                                         className: "product2-space"
                                                     }, void 0, false, {
                                                         fileName: "components/HomeDesign/index.jsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 87,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 73,
+                                                    lineNumber: 86,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31422,7 +31443,7 @@ function HomeDesign(props) {
                                                     children: productname2
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 89,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31430,13 +31451,13 @@ function HomeDesign(props) {
                                                     children: productdescripti2
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 90,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 71,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31451,7 +31472,7 @@ function HomeDesign(props) {
                                                             alt: "group2pic"
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 81,
+                                                            lineNumber: 94,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31460,12 +31481,12 @@ function HomeDesign(props) {
                                                                 className: "product"
                                                             }, void 0, false, {
                                                                 fileName: "components/HomeDesign/index.jsx",
-                                                                lineNumber: 83,
+                                                                lineNumber: 96,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 95,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31473,7 +31494,7 @@ function HomeDesign(props) {
                                                             children: productname3
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 98,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31481,13 +31502,13 @@ function HomeDesign(props) {
                                                             children: productdescript3
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 86,
+                                                            lineNumber: 99,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 93,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31499,7 +31520,7 @@ function HomeDesign(props) {
                                                             alt: "group4pic"
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 102,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -31508,12 +31529,12 @@ function HomeDesign(props) {
                                                                 className: "product"
                                                             }, void 0, false, {
                                                                 fileName: "components/HomeDesign/index.jsx",
-                                                                lineNumber: 91,
+                                                                lineNumber: 104,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 90,
+                                                            lineNumber: 103,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31521,7 +31542,7 @@ function HomeDesign(props) {
                                                             children: productname4
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 106,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31529,25 +31550,25 @@ function HomeDesign(props) {
                                                             children: productdescript4
                                                         }, void 0, false, {
                                                             fileName: "components/HomeDesign/index.jsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 107,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 101,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 79,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 62,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31556,7 +31577,7 @@ function HomeDesign(props) {
                                     alt: "HomeBG"
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31570,7 +31591,7 @@ function HomeDesign(props) {
                                             children: projectname
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 100,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31578,19 +31599,19 @@ function HomeDesign(props) {
                                             children: projectdetails
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 112,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 55,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31603,7 +31624,7 @@ function HomeDesign(props) {
                                             className: "logo-ending-1"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31614,7 +31635,7 @@ function HomeDesign(props) {
                                                     children: products
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 121,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31622,13 +31643,13 @@ function HomeDesign(props) {
                                                     children: teaminfo
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 122,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 107,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31639,7 +31660,7 @@ function HomeDesign(props) {
                                                     children: project
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 125,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31647,13 +31668,13 @@ function HomeDesign(props) {
                                                     children: projectabout
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 126,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 111,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31664,7 +31685,7 @@ function HomeDesign(props) {
                                                     children: contactInformation
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 129,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31672,19 +31693,19 @@ function HomeDesign(props) {
                                                     children: teamMember
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 130,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 115,
+                                            lineNumber: 128,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 105,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31696,7 +31717,7 @@ function HomeDesign(props) {
                                             alt: "icon-facebook"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 134,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31705,7 +31726,7 @@ function HomeDesign(props) {
                                             alt: "icon-twitter"
                                         }, void 0, false, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 122,
+                                            lineNumber: 135,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31717,7 +31738,7 @@ function HomeDesign(props) {
                                                     alt: "insIcon2"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 137,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31726,19 +31747,19 @@ function HomeDesign(props) {
                                                     alt: "InsIcon"
                                                 }, void 0, false, {
                                                     fileName: "components/HomeDesign/index.jsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 138,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "components/HomeDesign/index.jsx",
-                                            lineNumber: 123,
+                                            lineNumber: 136,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 120,
+                                    lineNumber: 133,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31746,19 +31767,19 @@ function HomeDesign(props) {
                                     children: copyright2023AllRightsReserved
                                 }, void 0, false, {
                                     fileName: "components/HomeDesign/index.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 141,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 104,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/HomeDesign/index.jsx",
-                    lineNumber: 48,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31770,7 +31791,7 @@ function HomeDesign(props) {
                             alt: "Group 5251"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 134,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31779,27 +31800,28 @@ function HomeDesign(props) {
                             alt: "Vector"
                         }, void 0, false, {
                             fileName: "components/HomeDesign/index.jsx",
-                            lineNumber: 135,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/HomeDesign/index.jsx",
-                    lineNumber: 133,
+                    lineNumber: 146,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/HomeDesign/index.jsx",
-            lineNumber: 41,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/HomeDesign/index.jsx",
-        lineNumber: 40,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }
+_s(HomeDesign, "ruhbMKXvtbE6lo7UqgGnM3kpsUo=");
 _c = HomeDesign;
 exports.default = HomeDesign;
 var _c;
@@ -31810,7 +31832,292 @@ $RefreshReg$(_c, "HomeDesign");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./HomeDesign.css":"95J9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"95J9S":[function() {},{}],"dJr7v":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./HomeDesign.css":"95J9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","cors":"j1GD8"}],"95J9S":[function() {},{}],"j1GD8":[function(require,module,exports) {
+(function() {
+    "use strict";
+    var assign = require("object-assign");
+    var vary = require("vary");
+    var defaults = {
+        origin: "*",
+        methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+        preflightContinue: false,
+        optionsSuccessStatus: 204
+    };
+    function isString(s) {
+        return typeof s === "string" || s instanceof String;
+    }
+    function isOriginAllowed(origin, allowedOrigin) {
+        if (Array.isArray(allowedOrigin)) {
+            for(var i = 0; i < allowedOrigin.length; ++i){
+                if (isOriginAllowed(origin, allowedOrigin[i])) return true;
+            }
+            return false;
+        } else if (isString(allowedOrigin)) return origin === allowedOrigin;
+        else if (allowedOrigin instanceof RegExp) return allowedOrigin.test(origin);
+        else return !!allowedOrigin;
+    }
+    function configureOrigin(options, req) {
+        var requestOrigin = req.headers.origin, headers = [], isAllowed;
+        if (!options.origin || options.origin === "*") // allow any origin
+        headers.push([
+            {
+                key: "Access-Control-Allow-Origin",
+                value: "*"
+            }
+        ]);
+        else if (isString(options.origin)) {
+            // fixed origin
+            headers.push([
+                {
+                    key: "Access-Control-Allow-Origin",
+                    value: options.origin
+                }
+            ]);
+            headers.push([
+                {
+                    key: "Vary",
+                    value: "Origin"
+                }
+            ]);
+        } else {
+            isAllowed = isOriginAllowed(requestOrigin, options.origin);
+            // reflect origin
+            headers.push([
+                {
+                    key: "Access-Control-Allow-Origin",
+                    value: isAllowed ? requestOrigin : false
+                }
+            ]);
+            headers.push([
+                {
+                    key: "Vary",
+                    value: "Origin"
+                }
+            ]);
+        }
+        return headers;
+    }
+    function configureMethods(options) {
+        var methods = options.methods;
+        if (methods.join) methods = options.methods.join(","); // .methods is an array, so turn it into a string
+        return {
+            key: "Access-Control-Allow-Methods",
+            value: methods
+        };
+    }
+    function configureCredentials(options) {
+        if (options.credentials === true) return {
+            key: "Access-Control-Allow-Credentials",
+            value: "true"
+        };
+        return null;
+    }
+    function configureAllowedHeaders(options, req) {
+        var allowedHeaders = options.allowedHeaders || options.headers;
+        var headers = [];
+        if (!allowedHeaders) {
+            allowedHeaders = req.headers["access-control-request-headers"]; // .headers wasn't specified, so reflect the request headers
+            headers.push([
+                {
+                    key: "Vary",
+                    value: "Access-Control-Request-Headers"
+                }
+            ]);
+        } else if (allowedHeaders.join) allowedHeaders = allowedHeaders.join(","); // .headers is an array, so turn it into a string
+        if (allowedHeaders && allowedHeaders.length) headers.push([
+            {
+                key: "Access-Control-Allow-Headers",
+                value: allowedHeaders
+            }
+        ]);
+        return headers;
+    }
+    function configureExposedHeaders(options) {
+        var headers = options.exposedHeaders;
+        if (!headers) return null;
+        else if (headers.join) headers = headers.join(","); // .headers is an array, so turn it into a string
+        if (headers && headers.length) return {
+            key: "Access-Control-Expose-Headers",
+            value: headers
+        };
+        return null;
+    }
+    function configureMaxAge(options) {
+        var maxAge = (typeof options.maxAge === "number" || options.maxAge) && options.maxAge.toString();
+        if (maxAge && maxAge.length) return {
+            key: "Access-Control-Max-Age",
+            value: maxAge
+        };
+        return null;
+    }
+    function applyHeaders(headers, res) {
+        for(var i = 0, n = headers.length; i < n; i++){
+            var header = headers[i];
+            if (header) {
+                if (Array.isArray(header)) applyHeaders(header, res);
+                else if (header.key === "Vary" && header.value) vary(res, header.value);
+                else if (header.value) res.setHeader(header.key, header.value);
+            }
+        }
+    }
+    function cors(options, req, res, next) {
+        var headers = [], method = req.method && req.method.toUpperCase && req.method.toUpperCase();
+        if (method === "OPTIONS") {
+            // preflight
+            headers.push(configureOrigin(options, req));
+            headers.push(configureCredentials(options, req));
+            headers.push(configureMethods(options, req));
+            headers.push(configureAllowedHeaders(options, req));
+            headers.push(configureMaxAge(options, req));
+            headers.push(configureExposedHeaders(options, req));
+            applyHeaders(headers, res);
+            if (options.preflightContinue) next();
+            else {
+                // Safari (and potentially other browsers) need content-length 0,
+                //   for 204 or they just hang waiting for a body
+                res.statusCode = options.optionsSuccessStatus;
+                res.setHeader("Content-Length", "0");
+                res.end();
+            }
+        } else {
+            // actual response
+            headers.push(configureOrigin(options, req));
+            headers.push(configureCredentials(options, req));
+            headers.push(configureExposedHeaders(options, req));
+            applyHeaders(headers, res);
+            next();
+        }
+    }
+    function middlewareWrapper(o) {
+        // if options are static (either via defaults or custom options passed in), wrap in a function
+        var optionsCallback = null;
+        if (typeof o === "function") optionsCallback = o;
+        else optionsCallback = function(req, cb) {
+            cb(null, o);
+        };
+        return function corsMiddleware(req, res, next) {
+            optionsCallback(req, function(err, options) {
+                if (err) next(err);
+                else {
+                    var corsOptions = assign({}, defaults, options);
+                    var originCallback = null;
+                    if (corsOptions.origin && typeof corsOptions.origin === "function") originCallback = corsOptions.origin;
+                    else if (corsOptions.origin) originCallback = function(origin, cb) {
+                        cb(null, corsOptions.origin);
+                    };
+                    if (originCallback) originCallback(req.headers.origin, function(err2, origin) {
+                        if (err2 || !origin) next(err2);
+                        else {
+                            corsOptions.origin = origin;
+                            cors(corsOptions, req, res, next);
+                        }
+                    });
+                    else next();
+                }
+            });
+        };
+    }
+    // can pass either an options hash, an options delegate, or nothing
+    module.exports = middlewareWrapper;
+})();
+
+},{"object-assign":"7OXxh","vary":"lFBRS"}],"lFBRS":[function(require,module,exports) {
+/*!
+ * vary
+ * Copyright(c) 2014-2017 Douglas Christopher Wilson
+ * MIT Licensed
+ */ "use strict";
+/**
+ * Module exports.
+ */ module.exports = vary;
+module.exports.append = append;
+/**
+ * RegExp to match field-name in RFC 7230 sec 3.2
+ *
+ * field-name    = token
+ * token         = 1*tchar
+ * tchar         = "!" / "#" / "$" / "%" / "&" / "'" / "*"
+ *               / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~"
+ *               / DIGIT / ALPHA
+ *               ; any VCHAR, except delimiters
+ */ var FIELD_NAME_REGEXP = /^[!#$%&'*+\-.^_`|~0-9A-Za-z]+$/;
+/**
+ * Append a field to a vary header.
+ *
+ * @param {String} header
+ * @param {String|Array} field
+ * @return {String}
+ * @public
+ */ function append(header, field) {
+    if (typeof header !== "string") throw new TypeError("header argument is required");
+    if (!field) throw new TypeError("field argument is required");
+    // get fields array
+    var fields = !Array.isArray(field) ? parse(String(field)) : field;
+    // assert on invalid field names
+    for(var j = 0; j < fields.length; j++){
+        if (!FIELD_NAME_REGEXP.test(fields[j])) throw new TypeError("field argument contains an invalid header name");
+    }
+    // existing, unspecified vary
+    if (header === "*") return header;
+    // enumerate current values
+    var val = header;
+    var vals = parse(header.toLowerCase());
+    // unspecified vary
+    if (fields.indexOf("*") !== -1 || vals.indexOf("*") !== -1) return "*";
+    for(var i = 0; i < fields.length; i++){
+        var fld = fields[i].toLowerCase();
+        // append value (case-preserving)
+        if (vals.indexOf(fld) === -1) {
+            vals.push(fld);
+            val = val ? val + ", " + fields[i] : fields[i];
+        }
+    }
+    return val;
+}
+/**
+ * Parse a vary header into an array.
+ *
+ * @param {String} header
+ * @return {Array}
+ * @private
+ */ function parse(header) {
+    var end = 0;
+    var list = [];
+    var start = 0;
+    // gather tokens
+    for(var i = 0, len = header.length; i < len; i++)switch(header.charCodeAt(i)){
+        case 0x20:
+            /*   */ if (start === end) start = end = i + 1;
+            break;
+        case 0x2c:
+            /* , */ list.push(header.substring(start, end));
+            start = end = i + 1;
+            break;
+        default:
+            end = i + 1;
+            break;
+    }
+    // final token
+    list.push(header.substring(start, end));
+    return list;
+}
+/**
+ * Mark that a request is varied on a header field.
+ *
+ * @param {Object} res
+ * @param {String|Array} field
+ * @public
+ */ function vary(res, field) {
+    if (!res || !res.getHeader || !res.setHeader) // quack quack
+    throw new TypeError("res argument is required");
+    // get existing header
+    var val = res.getHeader("Vary") || "";
+    var header = Array.isArray(val) ? val.join(", ") : String(val);
+    // set new header
+    if (val = append(header, field)) res.setHeader("Vary", val);
+}
+
+},{}],"dJr7v":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5b42 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32004,9 +32311,9 @@ function ProductSearchResult(props) {
                                                 className: "overlap-group-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                        className: "desk1",
+                                                        className: "x14-1",
                                                         src: x141,
-                                                        alt: "desk1"
+                                                        alt: "x14-1"
                                                     }, void 0, false, {
                                                         fileName: "components/ProductSearchResult/index.jsx",
                                                         lineNumber: 73,
