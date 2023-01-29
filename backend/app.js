@@ -7,7 +7,6 @@ app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
 app.get("/",cors(),(req,res)=>{
-    console.log("BENBEN");
 })
 
 app.post("/",async(req,res)=>{
@@ -15,18 +14,17 @@ app.post("/",async(req,res)=>{
     const{email,password}=req.body
     
     try{
-        
         const checkEmail = await user.findOne({email:email})
         if(checkEmail){
             const checkPassword = await user.findOne({password:password})
             if(checkPassword){
                 res.json("exist")
             }else{
-                res.json("notexist")
+                res.json("no")
             }
             
         }else{
-            res.json("The email has not been signed up")
+            res.json("notexist")
         }
     }
     catch(e){
@@ -41,6 +39,7 @@ app.post("/signup",async(req,res)=>{
         email:email,
         password:password
     }
+    console.log(data);
     try{
         const checkEmail = await user.findOne({email:email})
         if(checkEmail){

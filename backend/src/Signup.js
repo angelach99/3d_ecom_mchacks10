@@ -8,17 +8,16 @@ function Signup() {
     const [email,setEmail]=useState('')
     const [password,setPassWord]=useState('')
     async function submit(e){
-        e.preventDafault();
     
         try{
             await axios.post("http://localhost:8000/signup",{
                 fullName,email,password
             })
             .then(res=>{
-                if(res.data=="notexist"){
+                if(res.data==="notexist"){
 
                     history("/home",{state:{id:fullName}})
-                }else if(res.data=="exist"){
+                }else if(res.data==="exist"){
                     alert("User exists!")
                 }
             })
@@ -34,13 +33,11 @@ function Signup() {
 
             <h1>Sign up</h1>
 
-            <form action="POST">
                 <input type="fullName" onChange={(e)=>{setFullName(e.target.value)}} placeholder="fullName" name="" id="" />
                 <input type="email" onChange={(e)=>{setEmail(e.target.value)}} placeholder="email" name="" id="" />
                 <input type="password" onChange={(e)=>{setPassWord(e.target.value)}} placeholder="password" name="" id="" />
                 <input type="submit" onClick={submit}/> 
                 
-            </form>
             <br />
             <p>OR</p>
             <br/>
