@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./SignIn.css";
+import { Link } from "react-router-dom";
 
 function SignIn(props) {
   const {
@@ -16,6 +17,13 @@ function SignIn(props) {
     theBestECommerce,
   } = props;
 
+  useEffect(()=>
+  {
+    google.accounts.id.renderButton(document.getElementById("SignInDiv"),
+    {theme : "outline", size : "large"});
+  },[]);
+
+
   return (
     <div className="container-center-horizontal">
       <div className="sign-in screen">
@@ -23,7 +31,7 @@ function SignIn(props) {
           <div className="overlap-group-14">
             <div className="white-bg"></div>
             <div className="sign-in-heading poppins-semi-bold-fuscous-gray-28px">{signInHeading}</div>
-            <div className="continue-with-google"></div>
+            <div className="continue-with-google" id = "SignInDiv"></div>
             <div className="or poppins-medium-star-dust-14px">{or}</div>
             <img className="email-input" src="/img/emailinput.svg" alt="EmailInput" />
             <div className="email-address-text poppins-medium-star-dust-14px">{emailaddresstext}</div>
@@ -33,7 +41,7 @@ function SignIn(props) {
             <div className="sign-in-text poppins-semi-bold-white-16px">{signintext}</div>
             <p className="dont-have-an-account-sign-up poppins-normal-white-14px-2">
               <span className="poppins-normal-star-dust-14px">{spanText1}</span>
-              <span className="poppins-normal-pewter-blue-14px">{spanText2}</span>
+              <Link to="/sign-up">{spanText2}</Link>
             </p>
             <img className="abstraction" src={abstraction} alt="Abstraction" />
           </div>

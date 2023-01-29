@@ -42,15 +42,11 @@ app.post("/signup",async(req,res)=>{
         password:password
     }
     try{
-        console.log(email);
         const checkEmail = await user.findOne({email:email})
-        console.log(checkEmail);
-        if(checkEmail){
-            console.log("2");
+        if(checkEmail!=null){
             res.json("Email already exists!")
         }else{
-            await user.insertMany({data})
-            console.log("1");
+            await user.insertMany([data])
             res.json("Sign up successfully")
         }
     }

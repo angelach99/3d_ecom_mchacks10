@@ -1,10 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
+import { Link } from "react-router-dom";
 import "./SignUp.css";
 
 function SignUp(props) {
   const {
     createAccountTitle,
-    continueWithGoogle,
     or,
     fullName,
     emailAddress,
@@ -18,6 +18,12 @@ function SignUp(props) {
     theBestECommerce,
   } = props;
 
+  useEffect(()=>
+  {
+    google.accounts.id.renderButton(document.getElementById("SignUpDiv"),
+    {theme : "outline", size : "large"});
+  },[]);
+
   return (
     <div className="container-center-horizontal">
       <div className="sign-up screen">
@@ -25,8 +31,7 @@ function SignUp(props) {
           <div className="overlap-group-15">
             <div className="white-bg-1"></div>
             <div className="create-account-title poppins-semi-bold-fuscous-gray-28px">{createAccountTitle}</div>
-            <div className="continue-with-google-box"></div>
-            <div className="continue-with-google-1 poppins-semi-bold-star-dust-12px">{continueWithGoogle}</div>
+            <div id = "SignUpDiv" className="continue-with-google-box"></div>
             <div className="or-1 poppins-medium-star-dust-14px">{or}</div>
             <img className="full-name-input-box" src="/img/fullnameinputbox.svg" alt="FullNameInputBox" />
             <div className="full-name poppins-medium-star-dust-14px">{fullName}</div>
@@ -36,7 +41,7 @@ function SignUp(props) {
             <img className="password-input-box" src="/img/passwordinputbox.svg" alt="PasswordInputBox" />
             <p className="already-have-an-account-login poppins-normal-white-14px-2">
               <span className="poppins-normal-star-dust-14px">{spanText1}</span>
-              <span className="poppins-normal-pewter-blue-14px">{spanText2}</span>
+              <Link to="/sign-in">{spanText2}</Link>
             </p>
             <div className="create-account-button"></div>
             <div className="create-account-text poppins-semi-bold-white-16px">{createaccounttext}</div>

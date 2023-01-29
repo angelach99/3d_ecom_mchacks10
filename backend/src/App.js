@@ -10,7 +10,7 @@ function App() {
     //const [password,setPassword] = useState('')
     try{
        await axios.post("http://localhost:5000/signup",{ 
-        fullName:"XuningZhang",email:"xzha378@uwo.ca",password:"Qwertyuiop21!"
+        fullName:"XuningZhang",email:"xzha3789@uwo.ca",password:"Qwertyuiop21!"
        })
      }
      catch(e)

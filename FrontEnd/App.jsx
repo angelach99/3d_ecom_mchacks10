@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import ProductDetailPage from "./components/ProductDetailPage";
 import HomeDesign from "./components/HomeDesign";
@@ -9,6 +9,24 @@ import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 
 function App() {
+
+  function handleCallbackResponse(response)
+  {
+    var userObject = jwt_decode("response.credential");
+    console.log(userObject);
+  }
+
+  useEffect(()=>
+  {
+    /* global google */
+    google.accounts.id.initialize(
+      {
+        client_id:"871350291328-bat466j9gob33uatnqi9fvap34i5kqan.apps.googleusercontent.com",
+        callback: handleCallbackResponse
+      }
+    );
+  },[]);
+
   return (
     <Router>
       <Switch>
@@ -24,7 +42,7 @@ function App() {
         <Route path="/uploadpage">
           <UploadPage {...uploadPageData} />
         </Route>
-        <Route path="/:path(|sign-in)">
+        <Route path="/sign-in">
           <SignIn {...signInData} />
         </Route>
         <Route path="/sign-up">
@@ -206,7 +224,6 @@ const signInData = {
 
 const signUpData = {
     createAccountTitle: "Create Account",
-    continueWithGoogle: "Continue with Google",
     or: "- OR -",
     fullName: "Full Name",
     emailAddress: "Email Address",

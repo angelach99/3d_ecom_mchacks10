@@ -48,20 +48,11 @@
   border: 1px solid;
   border-color: var(--mercury);
   border-radius: 6px;
-  height: 62px;
-  left: 1014px;
+  height: 3px;
+  left: 1115px;
   position: absolute;
   top: 252px;
-  width: 374px;
-}
-
-.continue-with-google-1 {
-  left: 1101px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 268px;
-  width: 224px;
+  width: 3px;
 }
 
 .or-1 {

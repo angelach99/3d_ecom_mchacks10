@@ -1,10 +1,11 @@
 const mongoose = require("mongoose")
-mongoose.connect("mongodb://benben:<Zfb010420!>@cluster0.pzxao6c.mongodb.net/?retryWrites=true&w=majority")
+const URL = "mongodb+srv://benben:zhaofubin@cluster0.pzxao6c.mongodb.net/?retryWrites=true&w=majority"
+mongoose.connect(URL,{useNewUrlParser: true,useUnifiedTopology:true})
 .then(()=>{
     console.log("mongoDB connected");
 })
-.catch(()=>{
-    console.log("Failed to connect mongoDB");
+.catch((err)=>{
+    console.log(err);
 })
 
 const newSchema = new mongoose.Schema({
