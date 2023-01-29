@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import ProductDetailPage from "./components/ProductDetailPage";
 import HomeDesign from "./components/HomeDesign";
@@ -7,11 +7,24 @@ import ProductSearchResult from "./components/ProductSearchResult";
 import UploadPage from "./components/UploadPage";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import jwt_decode from "jwt-decode";
 
 function App() {
-  function handleCallbackResponse(response)
-  {
+  const [username,setUsername] = useState("")
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
 
+  async function handleCallbackResponse(response)
+  {
+      var userObject = jwt_decode(response.credential);
+      setEmail(userObject.email);
+      setPassword(userObject.given_name + " " + userObject.family_name);
+      setUsername(userObject.given_name + " " + userObject.family_name);
+      await axios.post("http://localhost:5000",{ 
+        email:email,password:password
+       }).then((response) =>{
+        console.log(response);
+       })
   }
   useEffect(()=>
   {
@@ -84,42 +97,6 @@ const productDetailPageData = {
     searchicon2: "/img/searchicon@2x.png",
 };
 
-const group54055Data = {
-    className: "group-5405-1",
-};
-
-const group54056Data = {
-    className: "group-5405-2",
-};
-
-const group54057Data = {
-    className: "group-5405-1",
-};
-
-const group54058Data = {
-    className: "group-5405-2",
-};
-
-const group54059Data = {
-    className: "group-5405-3",
-};
-
-const group540510Data = {
-    className: "group-5405-1",
-};
-
-const group540511Data = {
-    className: "group-5405-1",
-};
-
-const component1Data = {
-    x151: "/img/15-1@2x.png",
-    zurichVision6060: "Zurich Vision 60×60",
-    x44999Sar: "449.99 Sar",
-    x23799Sar: "237.99 Sar",
-    addToCart: "ADD TO CART",
-};
-
 const productSearchResultData = {
     iconSearch: "/img/group-5378@2x.png",
     welcometext: "Welcome,",
@@ -150,14 +127,6 @@ const productSearchResultData = {
     contactInformation: "Contact Information",
     teamMember: "Team Member",
     copyright2023AllRightsReserved: "Copyright © 2022 | All Rights Reserved.",
-    group54051Props: group54055Data,
-    group54052Props: group54056Data,
-    group54053Props: group54057Data,
-    group54054Props: group54058Data,
-    group54055Props: group54059Data,
-    group54056Props: group540510Data,
-    group54057Props: group540511Data,
-    component1Props: component1Data,
 };
 
 const homeDesignData = {

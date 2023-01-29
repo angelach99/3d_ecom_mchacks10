@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Component1 from "../Component1";
 import "./ProductSearchResult.css";
 
 function ProductSearchResult(props) {
@@ -34,14 +33,6 @@ function ProductSearchResult(props) {
     contactInformation,
     teamMember,
     copyright2023AllRightsReserved,
-    group54051Props,
-    group54052Props,
-    group54053Props,
-    group54054Props,
-    group54055Props,
-    group54056Props,
-    group54057Props,
-    component1Props,
   } = props;
 
   return (
@@ -146,13 +137,6 @@ function ProductSearchResult(props) {
               </Link>
             </div>
           </div>
-          <Component1
-            x151={component1Props.x151}
-            zurichVision6060={component1Props.zurichVision6060}
-            x44999Sar={component1Props.x44999Sar}
-            x23799Sar={component1Props.x23799Sar}
-            addToCart={component1Props.addToCart}
-          />
         </div>
         <div className="overlap-group9">
           <div className="flex-row-9">

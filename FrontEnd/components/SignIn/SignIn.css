@@ -8,7 +8,10 @@
   overflow: hidden;
   width: 1921px;
 }
-
+input {
+  border: none;
+  background: transparent;
+}
 .overlap-group1-2 {
   height: 1080px;
   margin-left: 46px;
@@ -78,7 +81,8 @@
   line-height: normal;
   position: absolute;
   top: 436px;
-  width: 173px;
+  width: 794px;
+  height: 45px;
 }
 
 .password-input {
@@ -96,7 +100,8 @@
   line-height: normal;
   position: absolute;
   top: 539px;
-  width: 118px;
+  width: 794px;
+  height: 45px;
 }
 
 .sign-in-button {

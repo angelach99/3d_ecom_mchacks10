@@ -126,19 +126,21 @@
 
 .full-name {
   letter-spacing: 0;
-  width: 121px;
+  height: 45px;
+  width: 788px;
   line-height: normal;
   position: absolute;
   top: 475px;
   left: 807px;
 }
 
-.email-address {
+.Email-address {
   letter-spacing: 0;
-  width: 172px;
+  height: 45px;
+  width: 788px;
   line-height: normal;
   position: absolute;
-  top: 582px;
+  top: 690px;
   left: 807px;
 }
 
@@ -151,12 +153,13 @@
   left: 807px;
 }
 
-.password {
+.Password {
   letter-spacing: 0;
-  width: 117px;
+  height: 45px;
+  width: 788px;
   line-height: normal;
   position: absolute;
-  top: 687px;
+  top: 580px;
   left: 807px;
 }
 
@@ -234,6 +237,11 @@
   overflow: hidden;
 }
 
+input {
+  background: none;
+  border: none;
+}
+
 .overlap-group1-2 {
   height: 1080px;
   width: 1887px;
@@ -299,7 +307,8 @@
 
 .email-address-text {
   letter-spacing: 0;
-  width: 173px;
+  width: 794px;
+  height: 45px;
   line-height: normal;
   position: absolute;
   top: 436px;
@@ -317,7 +326,8 @@
 
 .password-text {
   letter-spacing: 0;
-  width: 118px;
+  width: 794px;
+  height: 45px;
   line-height: normal;
   position: absolute;
   top: 539px;
@@ -1006,105 +1016,6 @@
   height: 9px;
   letter-spacing: .18px;
   margin-top: 42px;
-  line-height: normal;
-}
-
-.result1 {
-  height: 530px;
-  min-width: 333px;
-  align-items: flex-start;
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.overlap-group8 {
-  background-color: var(--black-haze);
-  min-height: 470px;
-  width: 333px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  display: flex;
-  box-shadow: 0 8px 16px #0000000a;
-}
-
-.x15-1 {
-  height: 333px;
-  object-fit: cover;
-  width: 333px;
-  margin-top: 12px;
-}
-
-.overlap-group1-1 {
-  background-color: var(--white);
-  min-height: 109px;
-  width: 333px;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 0;
-  display: flex;
-}
-
-.zurich-vision-6060 {
-  letter-spacing: 0;
-  min-width: 235px;
-  text-align: center;
-  white-space: nowrap;
-  margin-top: 18px;
-  line-height: 26px;
-}
-
-.group-5236 {
-  height: 18px;
-  min-width: 168px;
-  align-items: center;
-  gap: 7px;
-  margin-top: 16px;
-  margin-right: 9px;
-  display: flex;
-}
-
-.x44999-sar-2 {
-  letter-spacing: 0;
-  min-width: 63px;
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: .26px;
-  line-height: 12px;
-  text-decoration: line-through;
-}
-
-.x23799-sar {
-  letter-spacing: 0;
-  min-width: 94px;
-  text-align: center;
-  white-space: nowrap;
-  line-height: 18px;
-}
-
-.overlap-group-12 {
-  border: 2px solid;
-  border-color: var(--woodsmoke);
-  height: 8px;
-  min-width: 180px;
-  align-items: flex-start;
-  margin-top: 3px;
-  margin-right: 1px;
-  padding: .5px 36px;
-  display: flex;
-}
-
-.add-to-car-t {
-  color: var(--woodsmoke);
-  font-family: var(--font-family-proxima_nova-bold);
-  font-size: var(--font-size-xs);
-  height: 3px;
-  letter-spacing: 0;
-  text-align: center;
-  width: 105px;
-  font-weight: 700;
   line-height: normal;
 }
 
@@ -2176,59 +2087,6 @@
   width: 17px;
   margin-top: 1099px;
   margin-left: 352.02px;
-}
-
-.group-5405-4 {
-  height: 18px;
-  min-width: 165px;
-  align-items: center;
-  gap: 10px;
-  display: flex;
-  position: absolute;
-  top: 65px;
-  left: 79px;
-}
-
-.x44999-sar {
-  letter-spacing: 0;
-  min-width: 63px;
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: .26px;
-  line-height: 12px;
-  text-decoration: line-through;
-}
-
-.x31249-sar {
-  letter-spacing: 0;
-  min-width: 88px;
-  text-align: center;
-  white-space: nowrap;
-  line-height: 18px;
-}
-
-.group-5405-4.group-5405-1 {
-  left: unset;
-  position: unset;
-  top: unset;
-  align-self: center;
-  margin-left: 4px;
-}
-
-.group-5405-4.group-5405-2 {
-  left: unset;
-  position: unset;
-  top: unset;
-  margin-left: 4px;
-}
-
-.group-5405-4.group-5405-3 {
-  height: 18px;
-  min-width: 165px;
-  align-items: center;
-  gap: 10px;
-  margin-right: 2px;
-  display: flex;
 }
 
 

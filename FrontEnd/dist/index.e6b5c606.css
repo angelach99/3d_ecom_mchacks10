@@ -1,4 +1,274 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600|Inter:400";
+@import "https://px.animaapp.com/63d2286ecc301f4513ebcd89.63d2286fab83f3e1623df5e6.z68DEtw.rcp.png";
 
+
+:root {
+  --alto: #d9d9d942;
+  --black: #000;
+  --black-haze: #f6f6f6;
+  --cod-gray: #090909;
+  --delta: #a3a3a3;
+  --fuscous-gray: #515151;
+  --granite-gray: #676767;
+  --mercury: #e7e7e7;
+  --nobel: #b3b3b3;
+  --pewter-blue: #8bb2b2;
+  --pumice: #c9c9c9;
+  --sea-pink: #e59898;
+  --star-dust: #a1a1a1;
+  --white: #fff;
+  --woodsmoke: #111010;
+  --woodsmoke-2: #11101080;
+  --font-size-l: 26px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 44px;
+  --font-size-xs: 16px;
+  --font-size-xxs: 14px;
+  --font-size-xxxs: 12px;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-mulish-bold: "Mulish-Bold", Helvetica;
+  --font-family-mulish-regular: "Mulish-Regular", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-poppins-bold: "Poppins-Bold", Helvetica;
+  --font-family-proxima_nova-bold: "Proxima Nova-Bold", Helvetica;
+  --font-family-proxima_nova-regular: "Proxima Nova-Regular", Helvetica;
+  --font-family-proxima_nova-semibold: "Proxima Nova-Semibold", Helvetica;
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+}
+
+.proximanova-regular-normal-pumice-12px {
+  color: var(--pumice);
+  font-family: var(--font-family-proxima_nova-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.proximanova-normal-woodsmoke-18px {
+  color: var(--woodsmoke-2);
+  font-family: var(--font-family-proxima_nova-semibold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.proximanova-normal-woodsmoke-26px {
+  color: var(--woodsmoke);
+  font-family: var(--font-family-proxima_nova-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-star-dust-14px {
+  color: var(--star-dust);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-semi-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.proximanova-bold-cod-gray-16px {
+  color: var(--cod-gray);
+  font-family: var(--font-family-proxima_nova-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-normal-delta-14px {
+  color: var(--delta);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.proximanova-normal-white-28px {
+  color: var(--white);
+  font-family: var(--font-family-proxima_nova-semibold);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.proximanova-regular-normal-nobel-16px {
+  color: var(--nobel);
+  font-family: var(--font-family-proxima_nova-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-white-44px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.proximanova-regular-normal-white-9px {
+  color: var(--white);
+  font-family: var(--font-family-proxima_nova-regular);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mulish-bold-granite-gray-15-1px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-mulish-bold);
+  font-size: 15.1px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-semi-bold-star-dust-12px {
+  color: var(--star-dust);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-fuscous-gray-28px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-normal-white-14px-2 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-star-dust-14px {
+  color: var(--star-dust);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-pewter-blue-14px {
+  color: var(--pewter-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-bold-white-44px {
+  color: var(--white);
+  font-family: var(--font-family-poppins-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-regular-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-regular);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Proxima Nova-Semibold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(".173.ce74abb2.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Proxima Nova-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url("Mark Simonson - Proxima Nova A.7281068d.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Proxima Nova-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url("Mark Simonson - Proxima Nova Bold.29ddb98a.otf") format("opentype");
+}
+
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.container-center-horizontal {
+  pointer-events: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+.valign-text-middle {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .sign-up {
   height: 1080px;
@@ -956,105 +1226,6 @@
   height: 9px;
   letter-spacing: .18px;
   margin-top: 42px;
-  line-height: normal;
-}
-
-.result1 {
-  height: 530px;
-  min-width: 333px;
-  align-items: flex-start;
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.overlap-group8 {
-  background-color: var(--black-haze);
-  min-height: 470px;
-  width: 333px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  display: flex;
-  box-shadow: 0 8px 16px #0000000a;
-}
-
-.x15-1 {
-  height: 333px;
-  object-fit: cover;
-  width: 333px;
-  margin-top: 12px;
-}
-
-.overlap-group1-1 {
-  background-color: var(--white);
-  min-height: 109px;
-  width: 333px;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 0;
-  display: flex;
-}
-
-.zurich-vision-6060 {
-  letter-spacing: 0;
-  min-width: 235px;
-  text-align: center;
-  white-space: nowrap;
-  margin-top: 18px;
-  line-height: 26px;
-}
-
-.group-5236 {
-  height: 18px;
-  min-width: 168px;
-  align-items: center;
-  gap: 7px;
-  margin-top: 16px;
-  margin-right: 9px;
-  display: flex;
-}
-
-.x44999-sar-2 {
-  letter-spacing: 0;
-  min-width: 63px;
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: .26px;
-  line-height: 12px;
-  text-decoration: line-through;
-}
-
-.x23799-sar {
-  letter-spacing: 0;
-  min-width: 94px;
-  text-align: center;
-  white-space: nowrap;
-  line-height: 18px;
-}
-
-.overlap-group-12 {
-  border: 2px solid;
-  border-color: var(--woodsmoke);
-  height: 8px;
-  min-width: 180px;
-  align-items: flex-start;
-  margin-top: 3px;
-  margin-right: 1px;
-  padding: .5px 36px;
-  display: flex;
-}
-
-.add-to-car-t {
-  color: var(--woodsmoke);
-  font-family: var(--font-family-proxima_nova-bold);
-  font-size: var(--font-size-xs);
-  height: 3px;
-  letter-spacing: 0;
-  text-align: center;
-  width: 105px;
-  font-weight: 700;
   line-height: normal;
 }
 

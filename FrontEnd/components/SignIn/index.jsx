@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 
-function SignIn(props) {
+
+function SignIn(props ) {
   const {
     signInHeading,
     or,
-    emailaddresstext,
-    passwordtext,
     signintext,
     spanText1,
     spanText2,
@@ -23,6 +23,28 @@ function SignIn(props) {
     {theme : "outline", size : "large"});
   },[]);
 
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+
+  const onChangeHandler_Email = event => {
+    setEmail(event.target.value);
+ };
+ const onChangeHandler_Password = event => {
+  setPassword(event.target.value);
+};
+
+async function submit(e) 
+{
+  try{
+     await axios.post("http://localhost:5000/",{ 
+        email:email,password:password
+     })
+   }
+   catch(e)
+   {
+    console.log(e);
+   }
+}
 
   return (
     <div className="container-center-horizontal">
@@ -34,10 +56,10 @@ function SignIn(props) {
             <div className="continue-with-google" id = "SignInDiv"></div>
             <div className="or poppins-medium-star-dust-14px">{or}</div>
             <img className="email-input" src="/img/emailinput.svg" alt="EmailInput" />
-            <div className="email-address-text poppins-medium-star-dust-14px">{emailaddresstext}</div>
+            <input className="email-address-text poppins-medium-star-dust-14px" type="text" onChange={onChangeHandler_Email} placeholder="Email"/>
             <img className="password-input" src="/img/passwordinput.svg" alt="PasswordInput" />
-            <div className="password-text poppins-medium-star-dust-14px">{passwordtext}</div>
-            <div className="sign-in-button"></div>
+            <input className="password-text poppins-medium-star-dust-14px" type="password" onChange={onChangeHandler_Password} placeholder="Password"/>
+            <button type = "submit" className="sign-in-button" onClick={submit}></button>
             <div className="sign-in-text poppins-semi-bold-white-16px">{signintext}</div>
             <p className="dont-have-an-account-sign-up poppins-normal-white-14px-2">
               <span className="poppins-normal-star-dust-14px">{spanText1}</span>

@@ -1,14 +1,12 @@
-import React,{useEffect} from "react";
+import React,{useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import "./SignUp.css";
+import axios from 'axios';
 
 function SignUp(props) {
   const {
     createAccountTitle,
     or,
-    fullName,
-    emailAddress,
-    password,
     spanText1,
     spanText2,
     createaccounttext,
@@ -24,6 +22,34 @@ function SignUp(props) {
     {theme : "outline", size : "large"});
   },[]);
 
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+  const [fullname,setFullname] = useState("")
+
+  const onChangeHandler_Email = event => {
+    setEmail(event.target.value);
+ };
+ const onChangeHandler_Fullname = event => {
+  setFullname(event.target.value);
+};
+ const onChangeHandler_Password = event => {
+  setPassword(event.target.value);
+};
+
+async function submit(e) 
+{
+  try{
+     await axios.post("http://localhost:5000/",{ 
+        email:email,password:password
+     })
+   }
+   catch(e)
+   {
+    console.log(e);
+   }
+}
+
+
   return (
     <div className="container-center-horizontal">
       <div className="sign-up screen">
@@ -34,10 +60,10 @@ function SignUp(props) {
             <div id = "SignUpDiv" className="continue-with-google-box"></div>
             <div className="or-1 poppins-medium-star-dust-14px">{or}</div>
             <img className="full-name-input-box" src="/img/fullnameinputbox.svg" alt="FullNameInputBox" />
-            <div className="full-name poppins-medium-star-dust-14px">{fullName}</div>
-            <div className="email-address poppins-medium-star-dust-14px">{emailAddress}</div>
+            <input className="full-name" type="text" onChange={onChangeHandler_Fullname} placeholder="Fullname"/>
+            <input className="Email-address" type="text" onChange={onChangeHandler_Email} placeholder="Email"/>
             <img className="email-input-box" src="/img/emailinputbox.svg" alt="EmailInputBox" />
-            <div className="password poppins-medium-star-dust-14px">{password}</div>
+            <input className="Password" type="password" onChange={onChangeHandler_Password} placeholder="Password"/>
             <img className="password-input-box" src="/img/passwordinputbox.svg" alt="PasswordInputBox" />
             <p className="already-have-an-account-login poppins-normal-white-14px-2">
               <span className="poppins-normal-star-dust-14px">{spanText1}</span>
