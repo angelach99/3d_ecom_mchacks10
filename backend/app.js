@@ -2,26 +2,27 @@ const express = require("express")
 const cors = require("cors")
 const user = require("./user")
 const app = express()
-
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
-app.get("/login",cors(),(req,res)=>{
-
+app.get("/",cors(),(req,res)=>{
+    console.log("BENBEN");
 })
 
-app.post("/login",async(req,res)=>{
+app.post("/",async(req,res)=>{
+    
     const{email,password}=req.body
+    
     try{
         
         const checkEmail = await user.findOne({email:email})
         if(checkEmail){
             const checkPassword = await user.findOne({password:password})
             if(checkPassword){
-                res.json("Log in successfully!")
+                res.json("exist")
             }else{
-                res.json("Incorrect password")
+                res.json("notexist")
             }
             
         }else{
@@ -34,7 +35,6 @@ app.post("/login",async(req,res)=>{
 })
 
 app.post("/signup",async(req,res)=>{
-    res.header( "Access-Control-Allow-Origin" );
     const{fullName,email,password}=req.body
     const data={
         fullName:fullName,
@@ -43,11 +43,11 @@ app.post("/signup",async(req,res)=>{
     }
     try{
         const checkEmail = await user.findOne({email:email})
-        if(checkEmail!=null){
-            res.json("Email already exists!")
+        if(checkEmail){
+            res.json("exist")
         }else{
             await user.insertMany([data])
-            res.json("Sign up successfully")
+            res.json("notexist")
         }
     }
     catch(e){
@@ -55,6 +55,6 @@ app.post("/signup",async(req,res)=>{
     }
 })
 
-app.listen(5000,()=>{
+app.listen(8000,()=>{
     console.log("Port connected");
 })
