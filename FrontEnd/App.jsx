@@ -40,7 +40,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/product-detail-page">
+        <Route path="/product-detail-page/1">
+          <ProductDetailPage {...productDetailPageData} />
+        </Route>
+        <Route path="/product-detail-page/2">
           <ProductDetailPage {...productDetailPageData} />
         </Route>
         <Route path="/home-design">
