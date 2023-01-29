@@ -33,6 +33,8 @@ function ProductSearchResult(props) {
     contactInformation,
     teamMember,
     copyright2023AllRightsReserved,
+    desk1,
+    desk2
   } = props;
 
   return (
@@ -67,17 +69,17 @@ function ProductSearchResult(props) {
               </div>
             </Link>
             <div className="result-container">
-              <Link to="/product-detail-page">
+              <Link to="/product-detail-page/1">
                 <div className="result">
                   <div className="overlap-group-5">
-                    <img className="x14-1" src={x141} alt="x14-1" />
+                    <img className="x14-1" src={x141} alt="14 1" />
                     <div className="overlap-group-6">
                       <div className="zurich-pearl-6060 proximanova-normal-woodsmoke-26px">{zurichPearl6060}</div>
                     </div>
                   </div>
                 </div>
               </Link>
-              <Link to="/product-detail-page">
+              <Link to="/product-detail-page/2">
                 <div className="result">
                   <div className="overlap-group-5">
                     <img className="x10-1-1" src={x101} alt="10 1" />
