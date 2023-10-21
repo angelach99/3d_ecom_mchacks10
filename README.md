@@ -13,11 +13,11 @@ The platform will first show its home page where we outline the purpose, then a 
 
 #  ⚙️ How we built it
 
-##  Front-end: 
-  We utilized the template from Design1 and Design2 to recreate the design in Figma, and then we used xxx (the converter’s name) to convert the design to our front-end codebase.
+##  Front-end: React.js
+  We used utilized Figma the design, and then used Anima to convert the design to our React.js front-end codebase.
 
-##  Back-end: 
-  Utilize Node.js as the backend development environment and MongoDB as the database to store user data. Front-end and back-end interaction via the localhost server.
+##  Back-end: Node.js
+  Utilize Node.js as the backend development environment and MongoDB as the database to store user data.
 
 #  🚧 Challenges we faced
 
